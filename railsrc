@@ -1,0 +1,4 @@
+--database=mysql
+--skip-spring
+--skip-coffee
+--skip-turbolinks
