@@ -55,7 +55,7 @@ ZSH_THEME="custom_fino"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-completions git-flow)
+plugins=(git zsh-completions git-flow zsh-autosuggestions)
 
 #autoload -U compinit && compinit
 
