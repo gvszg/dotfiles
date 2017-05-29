@@ -198,7 +198,10 @@ let g:session_command_aliases = 1
 "*****************************************************************************
 "" Visual Settings
 "*****************************************************************************
-syntax on
+if !exists("g:syntax_on")
+  syntax enable
+endif
+
 set ruler
 set number
 
