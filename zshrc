@@ -94,4 +94,4 @@ export EDITOR='vim'
 alias zshconfig="vim ~/.zshrc"
 eval "$(rbenv init -)"
 source ~/Projects/Setup/dotfiles/env.sh
-# source ~/Projects/Setup/dotfiles/git-flow-completion.zsh
+source ~/.custom.sh
