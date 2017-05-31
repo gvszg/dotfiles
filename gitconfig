@@ -29,3 +29,10 @@
   # type = cat-file -t
   # dump = cat-file -p
   lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+  logweek = log -p --since=1.weeks
+
+  log2day = log -p --since=2.days
+
+  # Print log by given arguments like : 2017-0501
+  logdate = !sh -c 'git log -p --since=$1' -
