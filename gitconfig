@@ -36,3 +36,8 @@
 
   # Print log by given arguments like : 2017-0501
   logdate = !sh -c 'git log -p --since=$1' -
+[remote "origin"]
+  # Deletes all stale remote-tracking branches under <name>
+  prune = true
+[fetch]
+  prune = true

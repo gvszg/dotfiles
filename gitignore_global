@@ -3,3 +3,4 @@
 .DS_Store
 .rbenv-gemsets
 .pryrc
+.ruby-version
