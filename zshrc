@@ -91,6 +91,7 @@ export EDITOR='vim'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias el="exa -lbghHS"
 alias zshconfig="vim ~/.zshrc"
 eval "$(rbenv init -)"
 source ~/Projects/Setup/dotfiles/env.sh
