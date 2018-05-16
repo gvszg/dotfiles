@@ -6,6 +6,12 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export PYTHONPATH=$PYTHONPATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
+export GOROOT=/usr/local/opt/go/libexec
+export GOPATH=$HOME/.go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+# export PATH=$PATH:/Users/aeroyu/anaconda3/bin:/Users/aeroyu/Projects/Course/Python-Web-程式設計入門/anaconda3/bin
+export PATH=$PATH:/Users/aeroyu/anaconda3/bin
+
 # Virtual Environment
 # export WORKON_HOME=$HOME/.virtualenvs
 # export PROJECT_HOME=$HOME/Projects

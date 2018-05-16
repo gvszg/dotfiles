@@ -37,8 +37,23 @@
 
   # Print log by given arguments like : 2017-0501
   logdate = !sh -c 'git log -p --since=$1' -
+
+  # List Remote Git Branches By Author sorted by committerdate
+  author = for-each-ref --format='%(color:cyan)%(authordate:format:%m/%d/%Y %I:%M %p)    %(align:25,left)%(color:yellow)%(authorname)%(end) %(color:reset)%(refname:strip=3)' --sort=authordate refs/remotes
 [remote "origin"]
   # Deletes all stale remote-tracking branches under <name>
   prune = true
 [fetch]
   prune = true
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+[color "diff"]
+	meta = 227
+	frag = magenta bold
+	commit = 227 bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
