@@ -224,6 +224,8 @@ plugins=(git zsh-completions git-flow zsh-autosuggestions)
 
 #autoload -U compinit && compinit
 
+ZSH_DISABLE_COMPFIX=true
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -263,3 +265,9 @@ source ~/Projects/Setup/dotfiles/env.sh
 source ~/.custom.sh
 source ~/.fonts/*.sh
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/aeroyu/Projects/Setup/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/aeroyu/Projects/Setup/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/aeroyu/Projects/Setup/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/aeroyu/Projects/Setup/google-cloud-sdk/completion.zsh.inc'; fi
