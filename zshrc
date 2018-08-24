@@ -7,7 +7,7 @@ export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:$PATH
 export ZSH=$HOME/.oh-my-zsh
 
 # zsh-completions
-fpath=(/usr/local/share/zsh-completions $fpath)
+fpath=(~/.zsh/completion /usr/local/share/zsh-completions $fpath)
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -271,3 +271,5 @@ if [ -f '/Users/aeroyu/Projects/Setup/google-cloud-sdk/path.zsh.inc' ]; then sou
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/aeroyu/Projects/Setup/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/aeroyu/Projects/Setup/google-cloud-sdk/completion.zsh.inc'; fi
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
