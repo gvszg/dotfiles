@@ -7,7 +7,7 @@ export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:$PATH
 export ZSH=$HOME/.oh-my-zsh
 
 # zsh-completions
-fpath=(~/.zsh/completion /usr/local/share/zsh-completions $fpath)
+fpath=(/usr/local/share/zsh-completions $fpath)
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
