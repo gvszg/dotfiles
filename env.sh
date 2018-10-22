@@ -38,6 +38,6 @@ eval "$(rbenv init -)"
 # alias vimconfig="vim ~/.vimrc"
 # alias envconfig="vim ~/Projects/Setup/dotfiles/env.sh"
 
-if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init -)"
-fi
+# if command -v pyenv 1>/dev/null 2>&1; then
+#   eval "$(pyenv init -)"
+# fi
