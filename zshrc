@@ -1,7 +1,9 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:$PATH
+export PATH=$HOME/anaconda3/bin  # anaconda python
+export PATH=$HOME/.local/bin:$PATH  # custom pyhton pipenv binary
+export PATH=$PATH:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin
+# export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:$PATH
 # export PATH=/usr/local/bin:/usr/local/sbin:~/bin:$PATH
-# export PATH=/Users/aeroyu/Projects/Course/Python-Web-程式設計入門/anaconda3/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
@@ -260,7 +262,6 @@ export EDITOR='vim'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias el="exa -lbghHS"
 alias zshconfig="vim ~/.zshrc"
-eval "$(rbenv init -)"
 source ~/Projects/Setup/dotfiles/env.sh
 source ~/.custom.sh
 source ~/.fonts/*.sh

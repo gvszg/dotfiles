@@ -1,16 +1,18 @@
 #!/bin/zsh
 
 # PATH
-export PATH="$HOME/.local/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
-# export EDITOR='subl -w'
+# export PATH="$HOME/.local/bin"
+# export PATH=$PATH:$HOME/anaconda3/bin  # anaconda python
+# export PATH=$PATH:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin
+
+# export PATH="$HOME/.local/bin:/$HOME/anaconda3/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export PYTHONPATH=$PYTHONPATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
 export GOROOT=/usr/local/opt/go/libexec
 export GOPATH=$HOME/.go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
-# export PATH=$PATH:/Users/aeroyu/anaconda3/bin:/Users/aeroyu/Projects/Course/Python-Web-程式設計入門/anaconda3/bin
-export PATH=$PATH:/Users/aeroyu/anaconda3/bin
+# export PATH=$PATH:/Users/aeroyu/anaconda3/bin
 
 # Virtual Environment
 # export WORKON_HOME=$HOME/.virtualenvs
@@ -32,9 +34,10 @@ eval "$(rbenv init -)"
 # alias cppcompile='c++ -std=c++11 -stdlib=libc++'
 
 # Use sublimetext for editing config files
-alias zshconfig="vim ~/.zshrc"
-alias vimconfig="vim ~/.vimrc"
-alias envconfig="vim ~/Projects/Setup/dotfiles/env.sh"
+# alias zshconfig="vim ~/.zshrc"
+# alias vimconfig="vim ~/.vimrc"
+# alias envconfig="vim ~/Projects/Setup/dotfiles/env.sh"
+
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
