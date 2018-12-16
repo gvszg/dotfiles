@@ -12,6 +12,7 @@
 export GOROOT=/usr/local/opt/go/libexec
 export GOPATH=$HOME/.go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+export PATH=$PATH:/Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/bin
 # export PATH=$PATH:/Users/aeroyu/anaconda3/bin
 
 # Virtual Environment
