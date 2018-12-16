@@ -164,8 +164,11 @@ set expandtab
 "" Map leader to ,
 let mapleader=','
 
-"" jj is escape
+"" jj is escape insert mode
 inoremap jj <esc>
+
+"" ff is %
+map ff %
 
 "" Enable hidden buffers
 set hidden
