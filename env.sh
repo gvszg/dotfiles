@@ -9,6 +9,7 @@
 # export PYTHONPATH=$PYTHONPATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/
 export GOROOT=/usr/local/opt/go/libexec
 export GOPATH=$HOME/.go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
