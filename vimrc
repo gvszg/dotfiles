@@ -170,6 +170,12 @@ inoremap jj <esc>
 "" ff is %
 map ff %
 
+"" mf is ]m
+map mf ]m
+
+"" mb is [m
+map mb [m
+
 "" Ctrl-c is copy
 vmap <C-c> :w !pbcopy<CR><CR>
 
