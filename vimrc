@@ -170,6 +170,9 @@ inoremap jj <esc>
 "" ff is %
 map ff %
 
+"" Ctrl-c is copy
+vmap <C-c> :w !pbcopy<CR><CR>
+
 "" Enable hidden buffers
 set hidden
 
