@@ -179,6 +179,9 @@ map mb [m
 "" Ctrl-c is copy
 vmap <C-c> :w !pbcopy<CR><CR>
 
+"" Ctrl-p call Files (fzf)
+nnoremap <c-p> :Files<CR>
+
 "" Enable hidden buffers
 set hidden
 
