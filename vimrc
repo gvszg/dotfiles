@@ -182,6 +182,9 @@ vmap <C-c> :w !pbcopy<CR><CR>
 "" Ctrl-p call Files (fzf)
 nnoremap <c-p> :Files<CR>
 
+"" Leader b to search for open buffers
+nmap <Leader>b :Buffers<CR>
+
 "" Enable hidden buffers
 set hidden
 

@@ -9,3 +9,6 @@ in `vimrc`
 `nnoremap <c-p> :Files<CR>`
 refs:
 [How to enable AG in vim + fzf](https://stackoverflow.com/questions/49052469/how-to-enable-ag-in-vim-fzf)
+Buffers map:
+`nmap <Leader>b :Buffers<CR>`
+use: `, b`(Leader + b) to search for open buffers
