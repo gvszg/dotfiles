@@ -176,8 +176,11 @@ map mf ]m
 "" mb is [m
 map mb [m
 
-"" Ctrl-c is copy
-vmap <C-c> :w !pbcopy<CR><CR>
+"" <Leader>gf to search for git tracked files
+nmap <Leader>gf :GFiles<CR>
+
+"" <Leader>af to search all files.
+nmap <Leader>af :Files<CR>
 
 "" Ctrl-p call Files (fzf)
 nnoremap <c-p> :Files<CR>

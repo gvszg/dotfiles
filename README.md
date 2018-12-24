@@ -12,5 +12,7 @@ refs:
 Buffers map:
 `nmap <Leader>b :Buffers<CR>`
 use: `, b`(Leader + b) to search for open buffers
+<Leader>gf to search for git tracked files
+<Leader>af to search all files
 refs:
 [It's dangerous to Vim alone! Take Fzf](https://jesseleite.com/posts/2/its-dangerous-to-vim-alone-take-fzf)
