@@ -182,9 +182,6 @@ nmap <Leader>gf :GFiles<CR>
 "" <Leader>af to search all files.
 nmap <Leader>af :Files<CR>
 
-"" Ctrl-p call Files (fzf)
-nnoremap <c-p> :Files<CR>
-
 "" Leader b to search for open buffers
 nmap <Leader>b :Buffers<CR>
 
