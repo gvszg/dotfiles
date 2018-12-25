@@ -31,3 +31,22 @@ cnoreabbrev W w
 cnoreabbrev Q q
 cnoreabbrev Qall qall
 ```
+## Buffer operator
+```
+"" Close buffer
+<leader>c
+
+"" Nav buffer
+<leader>z or <leader>q
+<leader>x or <leader>w
+```
+## Visual moving
+```
+J for moving down
+K for moving up
+```
+## Visual shifting
+```
+< for left shfting
+> for right shifting
+```
