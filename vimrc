@@ -164,6 +164,8 @@ set expandtab
 "" Map leader to ,
 let mapleader=','
 
+""" MAP SETTINGS START """
+
 "" jj is escape insert mode
 inoremap jj <esc>
 
@@ -182,8 +184,13 @@ nmap <Leader>gf :GFiles<CR>
 "" <Leader>af to search all files.
 nmap <Leader>af :Files<CR>
 
-"" Leader b to search for open buffers
+"" <Leader>b to search for open buffers
 nmap <Leader>b :Buffers<CR>
+
+"" <Leader>H to view Vim's :help documentation in fullscreen
+nmap <Leader>H :Helptags!<CR>
+
+""" MAP SETTINGS END """
 
 "" Enable hidden buffers
 set hidden
