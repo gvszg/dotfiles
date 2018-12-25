@@ -161,36 +161,6 @@ set softtabstop=0
 set shiftwidth=4
 set expandtab
 
-"" Map leader to ,
-let mapleader=','
-
-""" MAP SETTINGS START """
-
-"" jj is escape insert mode
-inoremap jj <esc>
-
-"" ff is %
-map ff %
-
-"" mf is ]m
-map mf ]m
-
-"" mb is [m
-map mb [m
-
-"" <Leader>gf to search for git tracked files
-nmap <Leader>gf :GFiles<CR>
-
-"" <Leader>af to search all files.
-nmap <Leader>af :Files<CR>
-
-"" <Leader>b to search for open buffers
-nmap <Leader>b :Buffers<CR>
-
-"" <Leader>H to view Vim's :help documentation in fullscreen
-nmap <Leader>H :Helptags!<CR>
-
-""" MAP SETTINGS END """
 
 "" Enable hidden buffers
 set hidden
@@ -400,25 +370,52 @@ set autoread
 "" Mappings
 "*****************************************************************************
 
+"" Map leader to ,
+let mapleader=','
+
+"" jj is escape insert mode
+inoremap jj <esc>
+
+"" ff is %
+map ff %
+
+"" mf is ]m
+map mf ]m
+
+"" mb is [m
+map mb [m
+
+"" <Leader>gf to search for git tracked files
+nmap <Leader>gf :GFiles<CR>
+
+"" <Leader>af to search all files.
+nmap <Leader>af :Files<CR>
+
+"" <Leader>b to search for open buffers
+" nmap <Leader>b :Buffers<CR>
+
+"" <Leader>H to view Vim's :help documentation in fullscreen
+nmap <Leader>H :Helptags!<CR>
+
 "" Split
-noremap <Leader>h :<C-u>split<CR>
-noremap <Leader>v :<C-u>vsplit<CR>
+" noremap <Leader>h :<C-u>split<CR>
+" noremap <Leader>v :<C-u>vsplit<CR>
 
 "" Git
-noremap <Leader>ga :Gwrite<CR>
-noremap <Leader>gc :Gcommit<CR>
-noremap <Leader>gsh :Gpush<CR>
-noremap <Leader>gll :Gpull<CR>
-noremap <Leader>gs :Gstatus<CR>
-noremap <Leader>gb :Gblame<CR>
-noremap <Leader>gd :Gvdiff<CR>
-noremap <Leader>gr :Gremove<CR>
+" noremap <Leader>ga :Gwrite<CR>
+" noremap <Leader>gc :Gcommit<CR>
+" noremap <Leader>gsh :Gpush<CR>
+" noremap <Leader>gll :Gpull<CR>
+" noremap <Leader>gs :Gstatus<CR>
+" noremap <Leader>gb :Gblame<CR>
+" noremap <Leader>gd :Gvdiff<CR>
+" noremap <Leader>gr :Gremove<CR>
 
 " session management
-nnoremap <leader>so :OpenSession<Space>
-nnoremap <leader>ss :SaveSession<Space>
-nnoremap <leader>sd :DeleteSession<CR>
-nnoremap <leader>sc :CloseSession<CR>
+" nnoremap <leader>so :OpenSession<Space>
+" nnoremap <leader>ss :SaveSession<Space>
+" nnoremap <leader>sd :DeleteSession<CR>
+" nnoremap <leader>sc :CloseSession<CR>
 
 "" Tabs
 nnoremap <Tab> gt
@@ -523,7 +520,7 @@ vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
 
 "" Open current line on GitHub
-nnoremap <Leader>o :.Gbrowse<CR>
+" nnoremap <Leader>o :.Gbrowse<CR>
 
 "*****************************************************************************
 "" Custom configs
