@@ -17,3 +17,17 @@ use: `, b`(Leader + b) to search for open buffers
 <Leader>H to view Vim's :help documentation in fullscreen
 refs:
 [It's dangerous to Vim alone! Take Fzf](https://jesseleite.com/posts/2/its-dangerous-to-vim-alone-take-fzf)
+## Abbreviations
+Ignore upercase
+```
+cnoreabbrev W! w!
+cnoreabbrev Q! q!
+cnoreabbrev Qall! qall!
+cnoreabbrev Wq wq
+cnoreabbrev Wa wa
+cnoreabbrev wQ wq
+cnoreabbrev WQ wq
+cnoreabbrev W w
+cnoreabbrev Q q
+cnoreabbrev Qall qall
+```
