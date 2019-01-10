@@ -267,6 +267,8 @@ source ~/.custom.sh
 source ~/.fonts/*.sh
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+eval $(thefuck --alias)
+
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/aeroyu/Projects/Setup/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/aeroyu/Projects/Setup/google-cloud-sdk/path.zsh.inc'; fi
 
