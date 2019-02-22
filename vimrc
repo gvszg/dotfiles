@@ -368,7 +368,10 @@ augroup vimrc-make-cmake
 augroup END
 
 "" vim-javacomplete2
-autocmd FileType java setlocal omnifunc=javacomplete#Complete
+augroup vimrc-vim-javacomplete2
+  autocmd!
+  autocmd FileType java setlocal omnifunc=javacomplete#Complete
+augroup END
 
 set autoread
 
