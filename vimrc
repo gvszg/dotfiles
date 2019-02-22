@@ -370,7 +370,7 @@ augroup END
 "" vim-javacomplete2
 augroup vimrc-vim-javacomplete2
   autocmd!
-  autocmd FileType java setlocal omnifunc=javacomplete#Complete
+  autocmd FileType java,jsp setlocal omnifunc=javacomplete#Complete
 augroup END
 
 set autoread
