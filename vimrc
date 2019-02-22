@@ -85,6 +85,9 @@ Plug 'zanglg/nova.vim'
 "" Custom bundles
 "*****************************************************************************
 
+" java
+Plug 'artur-shaik/vim-javacomplete2'
+
 " c
 Plug 'vim-scripts/c.vim', {'for': ['c', 'cpp']}
 Plug 'ludwig/split-manpage.vim'
@@ -363,6 +366,9 @@ augroup vimrc-make-cmake
   autocmd FileType make setlocal noexpandtab
   autocmd BufNewFile,BufRead CMakeLists.txt setlocal filetype=cmake
 augroup END
+
+"" vim-javacomplete2
+autocmd FileType java setlocal omnifunc=javacomplete#Complete
 
 set autoread
 
