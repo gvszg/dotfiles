@@ -129,6 +129,8 @@ Plug 'tpope/vim-projectionist'
 Plug 'thoughtbot/vim-rspec'
 Plug 'ecomba/vim-ruby-refactoring'
 
+"" Asynchronous Lint Engine
+Plug 'w0rp/ale'
 
 "*****************************************************************************
 "*****************************************************************************
