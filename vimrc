@@ -132,6 +132,10 @@ Plug 'ecomba/vim-ruby-refactoring'
 "" Asynchronous Lint Engine
 Plug 'w0rp/ale'
 
+"" Intellisense engine for vim8 & neovim, full language server protocol support as VSCode
+Plug 'neoclide/coc.nvim', {'tag': '*', 'do': { -> coc#util#install()}}
+Plug 'neoclide/coc.nvim', {'tag': '*', 'do': 'yarn install --frozen-lockfile'}
+
 let g:ale_lint_on_text_changed = 'never'
 let g:ale_lint_on_enter = 0
 
