@@ -1,6 +1,7 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/anaconda3/bin  # anaconda python
-export PATH=$HOME/.local/bin:$HOME/.pyenv/shims:$PATH  # custom pyhton pipenv binary
+# export PATH=$HOME/anaconda3/bin  # anaconda python
+# export PATH=$HOME/.local/bin:$HOME/.pyenv/shims:$PATH  # custom pyhton pipenv binary
+# export PATH=$HOME/.pyenv/shims:$PATH  # custom pyhton pipenv binary
 export PATH=$PATH:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin
 # export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:$PATH
 # export PATH=/usr/local/bin:/usr/local/sbin:~/bin:$PATH
@@ -276,3 +277,6 @@ if [ -f '/Users/aeroyu/Projects/Setup/google-cloud-sdk/path.zsh.inc' ]; then sou
 if [ -f '/Users/aeroyu/Projects/Setup/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/aeroyu/Projects/Setup/google-cloud-sdk/completion.zsh.inc'; fi
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
