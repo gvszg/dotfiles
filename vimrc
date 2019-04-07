@@ -144,6 +144,8 @@ let g:ale_lint_on_save = 0
 
 "" PlantUML plugin
 Plug 'aklt/plantuml-syntax'
+Plug 'tyru/open-browser.vim'
+Plug 'weirongxu/plantuml-previewer.vim'
 
 "*****************************************************************************
 "*****************************************************************************
@@ -387,6 +389,12 @@ augroup vimrc-vim-javacomplete2
   autocmd!
   autocmd FileType java,jsp setlocal omnifunc=javacomplete#Complete
 augroup END
+
+au FileType plantuml let g:plantuml_previewer#plantuml_jar_path = get(
+            \  matchlist(system('grep plantuml.jar /usr/local/bin/plantuml'), '\v.* (\S+plantuml\.jar).*'),
+            \  1,
+            \  0
+            \)
 
 set autoread
 
