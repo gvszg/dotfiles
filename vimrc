@@ -142,6 +142,9 @@ let g:ale_lint_on_enter = 0
 """" If for whatever reason you don't wish to run linters again when you save files
 let g:ale_lint_on_save = 0
 
+"" PlantUML plugin
+Plug 'aklt/plantuml-syntax'
+
 "*****************************************************************************
 "*****************************************************************************
 
