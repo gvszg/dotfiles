@@ -280,3 +280,4 @@ if [ -f '/Users/aeroyu/Projects/Setup/google-cloud-sdk/completion.zsh.inc' ]; th
 
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
+export CATALINA_HOME="$HOME/Projects/Setup/Service/tomcat/apache-tomcat-8.5.39"
