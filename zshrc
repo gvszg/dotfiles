@@ -263,7 +263,7 @@ export EDITOR='vim'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias el="exa -lbghHS"
 alias zshconfig="vim ~/.zshrc"
-source ~/Projects/Setup/dotfiles/env.sh
+# source ~/Projects/Setup/dotfiles/env.sh
 source ~/.custom.sh
 source ~/.fonts/*.sh
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -278,6 +278,14 @@ if [ -f '/Users/aeroyu/Projects/Setup/google-cloud-sdk/completion.zsh.inc' ]; th
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+
+export GOROOT=/usr/local/opt/go/libexec
+export GOPATH=$HOME/.go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 export CATALINA_HOME="$HOME/Projects/Setup/Service/tomcat/apache-tomcat-8.5.39"
+
+eval "$(rbenv init -)"
