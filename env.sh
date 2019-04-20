@@ -11,11 +11,11 @@
 
 # export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/
 # export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/
-export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+# export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 
-export GOROOT=/usr/local/opt/go/libexec
-export GOPATH=$HOME/.go
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+# export GOROOT=/usr/local/opt/go/libexec
+# export GOPATH=$HOME/.go
+# export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 # export PATH=$PATH:/Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/bin
 # export PATH=$PATH:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/bin
 # export PATH=$PATH:/Users/aeroyu/anaconda3/bin
@@ -27,7 +27,7 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 # Owner
 # export USER_NAME="YOUR NAME"
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
 
 # FileSearch
 # function f() { find . -iname "*$1*" ${@:2} }

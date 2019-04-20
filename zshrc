@@ -229,7 +229,6 @@ plugins=(git zsh-completions git-flow zsh-autosuggestions)
 
 ZSH_DISABLE_COMPFIX=true
 
-source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
@@ -289,3 +288,5 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 export CATALINA_HOME="$HOME/Projects/Setup/Service/tomcat/apache-tomcat-8.5.39"
 
 eval "$(rbenv init -)"
+
+source $ZSH/oh-my-zsh.sh
