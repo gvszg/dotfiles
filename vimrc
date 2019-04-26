@@ -110,6 +110,8 @@ Plug 'mattn/emmet-vim'
 "" Javascript Bundle
 Plug 'jelera/vim-javascript-syntax'
 
+" vue
+Plug 'posva/vim-vue'
 
 " ocaml
 "" OCaml Bundle
