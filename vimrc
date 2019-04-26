@@ -400,6 +400,9 @@ au FileType plantuml let g:plantuml_previewer#plantuml_jar_path = get(
 
 set autoread
 
+"" vue
+autocmd FileType vue syntax sync fromstart
+
 "*****************************************************************************
 "" Mappings start
 "*****************************************************************************
