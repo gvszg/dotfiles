@@ -287,6 +287,8 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 export CATALINA_HOME="$HOME/Projects/Setup/Service/tomcat/apache-tomcat-8.5.39"
 
+export NODE_PATH='/usr/local/lib/node_modules'
+
 eval "$(rbenv init -)"
 
 source $ZSH/oh-my-zsh.sh
