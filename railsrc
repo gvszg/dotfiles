@@ -4,3 +4,4 @@
 --skip-turbolinks
 --skip-test-unit
 --skip-bundle
+--template=~/Projects/Setup/larvata_rails_template/template.rb
