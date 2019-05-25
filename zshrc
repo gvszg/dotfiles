@@ -287,7 +287,10 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 export CATALINA_HOME="$HOME/Projects/Setup/Service/tomcat/apache-tomcat-8.5.39"
 
+export PATH="/usr/local/opt/node@10/bin:$PATH"
 export NODE_PATH='/usr/local/lib/node_modules'
+export LDFLAGS="-L/usr/local/opt/node@10/lib"
+export CPPFLAGS="-I/usr/local/opt/node@10/include"
 
 eval "$(rbenv init -)"
 
