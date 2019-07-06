@@ -296,4 +296,6 @@ export CPPFLAGS="-I/usr/local/opt/node@10/include"
 
 eval "$(rbenv init -)"
 
+alias spring="/usr/local/bin/spring"
+
 source $ZSH/oh-my-zsh.sh
