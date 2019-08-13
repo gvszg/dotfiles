@@ -1,4 +1,5 @@
 tap "adoptopenjdk/openjdk"
+tap "buildpack/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
@@ -110,6 +111,8 @@ brew "zsh"
 brew "zsh-completions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
+# A CLI for building apps using Cloud Native Buildpacks
+brew "buildpack/tap/pack"
 # A simple terminal UI for docker, written in Go
 brew "jesseduffield/lazydocker/lazydocker"
 # Scalable Web Platform by Extending NGINX with Lua
@@ -120,4 +123,5 @@ brew "puma/puma/puma-dev"
 cask "android-studio"
 cask "font-hack-nerd-font"
 cask "font-sourcecodepro-nerd-font"
+cask "notion"
 cask "adoptopenjdk/openjdk/adoptopenjdk8"
