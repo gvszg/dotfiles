@@ -45,8 +45,6 @@ brew "imagemagick"
 brew "mit-scheme"
 # Simple tool to make locally trusted development certificates
 brew "mkcert"
-# Message broker implementing the MQTT protocol
-brew "mosquitto"
 # 'traceroute' and 'ping' in a single tool
 brew "mtr"
 # Open source relational database management system
