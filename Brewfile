@@ -118,7 +118,6 @@ brew "openresty/brew/openresty"
 brew "pivotal/tap/springboot"
 # A tool to manage rack apps in development with puma
 brew "puma/puma/puma-dev"
-cask "android-studio"
 cask "font-hack-nerd-font"
 cask "font-sourcecodepro-nerd-font"
 cask "notion"
