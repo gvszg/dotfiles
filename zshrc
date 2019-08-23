@@ -277,8 +277,8 @@ if [ -f '/Users/aeroyu/Projects/Setup/google-cloud-sdk/completion.zsh.inc' ]; th
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
-export PATH=$JAVA_HOME/bin:$PATH
+# export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+# export PATH=$JAVA_HOME/bin:$PATH
 export CLASSPATH=$HOME/Projects/Setup/db/PostgreSQL/postgresql-42.2.5.jar:./
 
 export GOROOT=/usr/local/opt/go/libexec
@@ -295,6 +295,8 @@ export LDFLAGS="-L/usr/local/opt/node@10/lib"
 export CPPFLAGS="-I/usr/local/opt/node@10/include"
 
 eval "$(rbenv init -)"
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
 
 alias spring="/usr/local/bin/spring"
 
