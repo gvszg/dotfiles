@@ -41,6 +41,8 @@ brew "htop"
 brew "icu4c"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
+# Manage your Java environment
+brew "jenv"
 # MIT/GNU Scheme development tools and runtime library
 brew "mit-scheme"
 # Simple tool to make locally trusted development certificates
@@ -121,4 +123,5 @@ brew "puma/puma/puma-dev"
 cask "font-hack-nerd-font"
 cask "font-sourcecodepro-nerd-font"
 cask "notion"
+cask "adoptopenjdk/openjdk/adoptopenjdk11"
 cask "adoptopenjdk/openjdk/adoptopenjdk8"
