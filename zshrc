@@ -288,8 +288,8 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 # export CATALINA_HOME="$HOME/Projects/Setup/Service/tomcat/apache-tomcat-8.5.39"
-export CATALINA_HOME="$HOME/Projects/Setup/Service/apache-tomcat9"
-export CATALINA="$HOME/Projects/Setup/Service/apache-tomcat9"
+export CATALINA_HOME="$HOME/Projects/Setup/Server/apache-tomcat9"
+export CATALINA="$HOME/Projects/Setup/Server/apache-tomcat9"
 export CLASSPATH=$CATALINA/common/lib/servlet-api.jar:$CLASSPATH
 
 export PATH="/usr/local/opt/node@10/bin:$PATH"
