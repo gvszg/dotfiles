@@ -159,6 +159,9 @@ else
 endif
 let g:deoplete#enable_at_startup = 1
 
+Plug 'Shougo/neosnippet.vim'
+Plug 'Shougo/neosnippet-snippets'
+
 "*****************************************************************************
 "*****************************************************************************
 
@@ -356,6 +359,13 @@ if g:vim_bootstrap_editor == 'nvim'
 else
   nnoremap <silent> <leader>sh :VimShellCreate<CR>
 endif
+
+"" Neosnippet
+" Plugin key-mappings.
+" " Note: It must be "imap" and "smap".  It uses <Plug> mappings.
+imap <C-k>     <Plug>(neosnippet_expand_or_jump)
+smap <C-k>     <Plug>(neosnippet_expand_or_jump)
+xmap <C-k>     <Plug>(neosnippet_expand_target)
 
 "*****************************************************************************
 "" Functions
