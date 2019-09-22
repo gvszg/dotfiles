@@ -291,6 +291,8 @@ export NODE_PATH='/usr/local/lib/node_modules'
 export LDFLAGS="-L/usr/local/opt/node@10/lib"
 export CPPFLAGS="-I/usr/local/opt/node@10/include"
 
+export PATH="$HOME/miniconda3/bin:$PATH"
+
 eval "$(rbenv init -)"
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
