@@ -616,7 +616,7 @@ augroup END
 
 " html
 " for html files, 2 spaces
-autocmd Filetype html setlocal ts=2 sw=2 expandtab
+autocmd Filetype html,xml,eruby,css,scss setlocal ts=4 sw=4 expandtab softtabstop=4
 
 
 " javascript
