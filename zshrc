@@ -236,6 +236,11 @@ export LANG=en_US.UTF-8
 
 export EDITOR='vim'
 
+if type nvim > /dev/null 2>&1; then
+  alias vim='nvim'
+  alias vi='nvim'
+fi
+
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
