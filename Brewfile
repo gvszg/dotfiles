@@ -13,8 +13,12 @@ tap "puma/puma"
 brew "python"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
+# Turn English phrases to C or C++ declarations
+brew "cdecl"
 # Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
+# Tool for exploring each layer in a docker image
+brew "dive"
 # Convert text between DOS, UNIX, and Mac formats
 brew "dos2unix"
 # Modern replacement for 'ls'
@@ -43,6 +47,8 @@ brew "icu4c"
 brew "imagemagick"
 # Manage your Java environment
 brew "jenv"
+# Swiss Army Knife for macOS
+brew "m-cli"
 # MIT/GNU Scheme development tools and runtime library
 brew "mit-scheme"
 # Simple tool to make locally trusted development certificates
@@ -83,6 +89,8 @@ brew "reattach-to-user-namespace"
 brew "solr"
 # Tools for market analysis
 brew "ta-lib"
+# User interface to the TELNET protocol (built from macOS Sierra sources)
+brew "telnet"
 # Code-search similar to ack
 brew "the_silver_searcher"
 # Programatically correct mistyped console commands
@@ -107,6 +115,10 @@ brew "wget"
 brew "wrk"
 # JavaScript package manager
 brew "yarn"
+# Dumb downloader that scrapes the web
+brew "you-get"
+# Download YouTube videos from the command-line
+brew "youtube-dl"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Additional completion definitions for zsh
@@ -122,9 +134,9 @@ brew "openresty/brew/openresty"
 brew "pivotal/tap/springboot"
 # A tool to manage rack apps in development with puma
 brew "puma/puma/puma-dev"
+cask "adoptopenjdk11"
+cask "adoptopenjdk8"
 cask "font-hack-nerd-font"
 cask "font-sourcecodepro-nerd-font"
 cask "notion"
 cask "obs"
-cask "adoptopenjdk/openjdk/adoptopenjdk11"
-cask "adoptopenjdk/openjdk/adoptopenjdk8"
