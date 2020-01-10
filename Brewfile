@@ -1,5 +1,6 @@
 tap "adoptopenjdk/openjdk"
 tap "buildpack/tap"
+tap "derailed/k9s"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
@@ -7,10 +8,9 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "jesseduffield/lazydocker"
 tap "openresty/brew"
+tap "pemistahl/formulas"
 tap "pivotal/tap"
 tap "puma/puma"
-# Interpreted, interactive, object-oriented programming language
-brew "python"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
 # Turn English phrases to C or C++ declarations
@@ -31,6 +31,8 @@ brew "gcc"
 brew "git"
 # Extensions to follow Vincent Driessen's branching model
 brew "git-flow"
+# Interpreted, interactive, object-oriented programming language
+brew "python"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Open-source build automation tool based on the Groovy and Kotlin DSL
@@ -63,6 +65,8 @@ brew "ncdu"
 brew "neovim"
 # Port scanning utility for large networks
 brew "nmap"
+# Tiny, lightning fast, feature-packed file manager
+brew "nnn"
 # Platform built on V8 to build network applications
 brew "node"
 # Platform built on V8 to build network applications
@@ -127,10 +131,14 @@ brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 # A CLI for building apps using Cloud Native Buildpacks
 brew "buildpack/tap/pack"
+# Kubernetes CLI To Manage Your Clusters In Style!
+brew "derailed/k9s/k9s"
 # A simple terminal UI for docker, written in Go
 brew "jesseduffield/lazydocker/lazydocker"
 # Scalable Web Platform by Extending NGINX with Lua
 brew "openresty/brew/openresty"
+# Command-line tool for generating regular expressions
+brew "pemistahl/formulas/grex"
 brew "pivotal/tap/springboot"
 # A tool to manage rack apps in development with puma
 brew "puma/puma/puma-dev"
@@ -140,3 +148,4 @@ cask "font-hack-nerd-font"
 cask "font-sourcecodepro-nerd-font"
 cask "notion"
 cask "obs"
+cask "spotify"
