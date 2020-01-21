@@ -1,6 +1,7 @@
 tap "adoptopenjdk/openjdk"
 tap "buildpack/tap"
 tap "derailed/k9s"
+tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
@@ -51,6 +52,8 @@ brew "imagemagick"
 brew "jenv"
 # Swiss Army Knife for macOS
 brew "m-cli"
+# Java-based project management
+brew "maven"
 # MIT/GNU Scheme development tools and runtime library
 brew "mit-scheme"
 # Simple tool to make locally trusted development certificates
@@ -133,6 +136,8 @@ brew "zsh-syntax-highlighting"
 brew "buildpack/tap/pack"
 # Kubernetes CLI To Manage Your Clusters In Style!
 brew "derailed/k9s/k9s"
+# Everything you need to get started with Heroku
+brew "heroku/brew/heroku"
 # A simple terminal UI for docker, written in Go
 brew "jesseduffield/lazydocker/lazydocker"
 # Scalable Web Platform by Extending NGINX with Lua
