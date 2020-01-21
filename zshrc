@@ -322,3 +322,5 @@ source $ZSH/oh-my-zsh.sh
 # unset __conda_setup
 # <<< conda initialize <<<
 
+
+source /Users/aeroyu/Library/Preferences/org.dystroy.broot/launcher/bash/br
