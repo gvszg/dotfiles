@@ -58,4 +58,4 @@
 	new = green bold
 	whitespace = red reverse
 [credential]
-	helper = osxkeychain
+	helper = cache
