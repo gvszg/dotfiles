@@ -36,8 +36,6 @@ brew "git-flow"
 brew "python"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
-# Open-source build automation tool based on the Groovy and Kotlin DSL
-brew "gradle"
 # GitHub Markdown previewer
 brew "grip"
 # The mind to rule processes of your development environment
@@ -52,8 +50,6 @@ brew "imagemagick"
 brew "jenv"
 # Swiss Army Knife for macOS
 brew "m-cli"
-# Java-based project management
-brew "maven"
 # MIT/GNU Scheme development tools and runtime library
 brew "mit-scheme"
 # Simple tool to make locally trusted development certificates
@@ -92,11 +88,9 @@ brew "rbenv"
 brew "rbenv-gemset"
 # Reattach process (e.g., tmux) to background
 brew "reattach-to-user-namespace"
-# Enterprise search platform from the Apache Lucene project
-brew "solr"
 # Tools for market analysis
 brew "ta-lib"
-# User interface to the TELNET protocol (built from macOS Sierra sources)
+# User interface to the TELNET protocol
 brew "telnet"
 # Code-search similar to ack
 brew "the_silver_searcher"
@@ -132,25 +126,20 @@ brew "zsh"
 brew "zsh-completions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
-# A CLI for building apps using Cloud Native Buildpacks
-brew "buildpack/tap/pack"
 # Kubernetes CLI To Manage Your Clusters In Style!
 brew "derailed/k9s/k9s"
-# Everything you need to get started with Heroku
-brew "heroku/brew/heroku"
 # A simple terminal UI for docker, written in Go
 brew "jesseduffield/lazydocker/lazydocker"
 # Scalable Web Platform by Extending NGINX with Lua
 brew "openresty/brew/openresty"
-# Command-line tool for generating regular expressions
+# Command-line tool for generating regular expressions from user-provided test cases
 brew "pemistahl/formulas/grex"
 brew "pivotal/tap/springboot"
-# A tool to manage rack apps in development with puma
-brew "puma/puma/puma-dev"
 cask "adoptopenjdk11"
 cask "adoptopenjdk8"
 cask "font-hack-nerd-font"
 cask "font-sourcecodepro-nerd-font"
+cask "ngrok"
 cask "notion"
 cask "obs"
 cask "spotify"
