@@ -32,10 +32,10 @@ brew "gcc"
 brew "git"
 # Extensions to follow Vincent Driessen's branching model
 brew "git-flow"
-# Interpreted, interactive, object-oriented programming language
-brew "python"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Interpreted, interactive, object-oriented programming language
+brew "python"
 # GitHub Markdown previewer
 brew "grip"
 # The mind to rule processes of your development environment
@@ -128,6 +128,8 @@ brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 # Kubernetes CLI To Manage Your Clusters In Style!
 brew "derailed/k9s/k9s"
+# Everything you need to get started with Heroku
+brew "heroku/brew/heroku"
 # A simple terminal UI for docker, written in Go
 brew "jesseduffield/lazydocker/lazydocker"
 # Scalable Web Platform by Extending NGINX with Lua
@@ -139,6 +141,7 @@ cask "adoptopenjdk11"
 cask "adoptopenjdk8"
 cask "font-hack-nerd-font"
 cask "font-sourcecodepro-nerd-font"
+cask "miro-formerly-realtimeboard"
 cask "ngrok"
 cask "notion"
 cask "obs"
