@@ -9,7 +9,6 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "jesseduffield/lazydocker"
 tap "openresty/brew"
-tap "pemistahl/formulas"
 tap "pivotal/tap"
 tap "puma/puma"
 # Automate deployment, configuration, and upgrading
@@ -36,6 +35,8 @@ brew "git-flow"
 brew "go"
 # Interpreted, interactive, object-oriented programming language
 brew "python"
+# Command-line tool for generating regular expressions
+brew "grex"
 # GitHub Markdown previewer
 brew "grip"
 # The mind to rule processes of your development environment
@@ -134,11 +135,10 @@ brew "heroku/brew/heroku"
 brew "jesseduffield/lazydocker/lazydocker"
 # Scalable Web Platform by Extending NGINX with Lua
 brew "openresty/brew/openresty"
-# Command-line tool for generating regular expressions from user-provided test cases
-brew "pemistahl/formulas/grex"
 brew "pivotal/tap/springboot"
 cask "adoptopenjdk11"
 cask "adoptopenjdk8"
+cask "discord"
 cask "font-hack-nerd-font"
 cask "font-sourcecodepro-nerd-font"
 cask "miro-formerly-realtimeboard"
