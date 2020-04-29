@@ -14,7 +14,7 @@
   followTags = true
 [core]
 	excludesfile = /Users/aeroyu/.gitignore_global
-  editor = /usr/local/bin/vim
+  editor = /usr/local/bin/nvim
 	filemode = true
 	pager = diff-so-fancy | less --tabs=4 -RFX
 [diff]
