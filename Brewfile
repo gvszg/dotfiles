@@ -35,6 +35,8 @@ brew "git-flow"
 brew "go"
 # Interpreted, interactive, object-oriented programming language
 brew "python"
+# C/C++ and Java libraries for Unicode and globalization
+brew "icu4c"
 # Command-line tool for generating regular expressions
 brew "grex"
 # GitHub Markdown previewer
@@ -43,8 +45,6 @@ brew "grip"
 brew "hivemind"
 # Improved top (interactive process viewer)
 brew "htop"
-# C/C++ and Java libraries for Unicode and globalization
-brew "icu4c"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
 # Manage your Java environment
@@ -138,6 +138,7 @@ brew "openresty/brew/openresty"
 brew "pivotal/tap/springboot"
 cask "adoptopenjdk11"
 cask "adoptopenjdk8"
+cask "another-redis-desktop-manager"
 cask "discord"
 cask "font-hack-nerd-font"
 cask "font-sourcecodepro-nerd-font"
