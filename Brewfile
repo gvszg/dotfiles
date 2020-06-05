@@ -129,8 +129,6 @@ brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 # Kubernetes CLI To Manage Your Clusters In Style!
 brew "derailed/k9s/k9s"
-# Everything you need to get started with Heroku
-brew "heroku/brew/heroku"
 # A simple terminal UI for docker, written in Go
 brew "jesseduffield/lazydocker/lazydocker"
 # Scalable Web Platform by Extending NGINX with Lua
