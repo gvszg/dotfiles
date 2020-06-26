@@ -13,6 +13,8 @@ tap "pivotal/tap"
 tap "puma/puma"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
+# ANother Tool for Language Recognition
+brew "antlr"
 # Turn English phrases to C or C++ declarations
 brew "cdecl"
 # Good-lookin' diffs with diff-highlight and more
@@ -146,3 +148,4 @@ cask "ngrok"
 cask "notion"
 cask "obs"
 cask "spotify"
+cask "switchhosts"
