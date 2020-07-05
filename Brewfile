@@ -17,6 +17,8 @@ brew "ansible"
 brew "antlr"
 # Turn English phrases to C or C++ declarations
 brew "cdecl"
+# Top-like interface for container metrics
+brew "ctop"
 # Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
 # Tool for exploring each layer in a docker image
@@ -33,6 +35,8 @@ brew "gcc"
 brew "git"
 # Extensions to follow Vincent Driessen's branching model
 brew "git-flow"
+# Alternative to top/htop
+brew "glances"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Interpreted, interactive, object-oriented programming language
