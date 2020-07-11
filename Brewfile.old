@@ -1,16 +1,28 @@
+tap "adoptopenjdk/openjdk"
+tap "buildpack/tap"
+tap "derailed/k9s"
+tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "homebrew/versions"
+tap "jesseduffield/lazydocker"
+tap "openresty/brew"
+tap "pivotal/tap"
 tap "puma/puma"
-# Interpreted, interactive, object-oriented programming language
-brew "python"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
+# ANother Tool for Language Recognition
+brew "antlr"
+# Turn English phrases to C or C++ declarations
+brew "cdecl"
+# Top-like interface for container metrics
+brew "ctop"
 # Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
+# Tool for exploring each layer in a docker image
+brew "dive"
 # Convert text between DOS, UNIX, and Mac formats
 brew "dos2unix"
 # Modern replacement for 'ls'
@@ -23,44 +35,54 @@ brew "gcc"
 brew "git"
 # Extensions to follow Vincent Driessen's branching model
 brew "git-flow"
+# Alternative to top/htop
+brew "glances"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Interpreted, interactive, object-oriented programming language
+brew "python"
+# C/C++ and Java libraries for Unicode and globalization
+brew "icu4c"
+# Command-line tool for generating regular expressions
+brew "grex"
 # GitHub Markdown previewer
 brew "grip"
 # The mind to rule processes of your development environment
 brew "hivemind"
 # Improved top (interactive process viewer)
 brew "htop"
-# C/C++ and Java libraries for Unicode and globalization
-brew "icu4c"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
+# Manage your Java environment
+brew "jenv"
+# Swiss Army Knife for macOS
+brew "m-cli"
 # MIT/GNU Scheme development tools and runtime library
 brew "mit-scheme"
 # Simple tool to make locally trusted development certificates
 brew "mkcert"
-# Message broker implementing the MQTT protocol
-brew "mosquitto"
 # 'traceroute' and 'ping' in a single tool
 brew "mtr"
 # Open source relational database management system
-brew "mysql"
+brew "mysql@5.7"
 # NCurses Disk Usage
 brew "ncdu"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
 # Port scanning utility for large networks
 brew "nmap"
+# Tiny, lightning fast, feature-packed file manager
+brew "nnn"
 # Platform built on V8 to build network applications
-brew "node", link: false
+brew "node"
 # Platform built on V8 to build network applications
-brew "node@10", link: true
+brew "node@10"
 # Libraries for security-enabled client and server applications
 brew "nss"
 # Python dependency management tool
 brew "pipenv"
 # Draw UML diagrams
 brew "plantuml"
-# Object-relational database system
-brew "postgresql"
 # Framework for managing multi-language pre-commit hooks
 brew "pre-commit"
 # Python version management
@@ -73,10 +95,10 @@ brew "rbenv"
 brew "rbenv-gemset"
 # Reattach process (e.g., tmux) to background
 brew "reattach-to-user-namespace"
-# Enterprise search platform from the Apache Lucene project
-brew "solr"
 # Tools for market analysis
 brew "ta-lib"
+# User interface to the TELNET protocol
+brew "telnet"
 # Code-search similar to ack
 brew "the_silver_searcher"
 # Programatically correct mistyped console commands
@@ -101,14 +123,33 @@ brew "wget"
 brew "wrk"
 # JavaScript package manager
 brew "yarn"
+# Dumb downloader that scrapes the web
+brew "you-get"
+# Download YouTube videos from the command-line
+brew "youtube-dl"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Additional completion definitions for zsh
 brew "zsh-completions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
-# A tool to manage rack apps in development with puma
-brew "puma/puma/puma-dev"
-cask "android-studio"
+# Kubernetes CLI To Manage Your Clusters In Style!
+brew "derailed/k9s/k9s"
+# A simple terminal UI for docker, written in Go
+brew "jesseduffield/lazydocker/lazydocker"
+# Scalable Web Platform by Extending NGINX with Lua
+brew "openresty/brew/openresty"
+brew "pivotal/tap/springboot"
+cask "adoptopenjdk11"
+cask "adoptopenjdk8"
+cask "alfred"
+cask "another-redis-desktop-manager"
+cask "discord"
 cask "font-hack-nerd-font"
 cask "font-sourcecodepro-nerd-font"
+cask "miro-formerly-realtimeboard"
+cask "ngrok"
+cask "notion"
+cask "obs"
+cask "spotify"
+cask "switchhosts"

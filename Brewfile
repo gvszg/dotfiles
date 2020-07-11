@@ -39,8 +39,6 @@ brew "git-flow"
 brew "glances"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
-# Interpreted, interactive, object-oriented programming language
-brew "python"
 # C/C++ and Java libraries for Unicode and globalization
 brew "icu4c"
 # Command-line tool for generating regular expressions
@@ -51,6 +49,8 @@ brew "grip"
 brew "hivemind"
 # Improved top (interactive process viewer)
 brew "htop"
+# User-friendly cURL replacement (command-line HTTP client)
+brew "httpie"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
 # Manage your Java environment
@@ -151,5 +151,4 @@ cask "miro-formerly-realtimeboard"
 cask "ngrok"
 cask "notion"
 cask "obs"
-cask "spotify"
 cask "switchhosts"
