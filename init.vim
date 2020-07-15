@@ -508,6 +508,9 @@ if has('macunix')
   vmap <C-c> :w !pbcopy<CR><CR>
 endif
 
+"" Copy in Visual Mode
+map <C-c> "+y<CR>
+
 "" Buffer nav
 noremap <leader>z :bp<CR>
 noremap <leader>q :bp<CR>
