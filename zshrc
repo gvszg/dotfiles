@@ -37,7 +37,7 @@ powerlevel9k_random_color(){
     printf "%03d" $code
 }
 
-POWERLEVEL9K_MODE="nerdfont-complete"
+# POWERLEVEL9K_MODE="nerdfont-complete"
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
 
 POWERLEVEL9K_DIR_OMIT_FIRST_CHARACTER=false
