@@ -1,5 +1,4 @@
 tap "adoptopenjdk/openjdk"
-tap "buildpack/tap"
 tap "derailed/k9s"
 tap "heroku/brew"
 tap "homebrew/bundle"
@@ -64,7 +63,7 @@ brew "mkcert"
 # 'traceroute' and 'ping' in a single tool
 brew "mtr"
 # Open source relational database management system
-brew "mysql@5.7"
+brew "mysql@5.7", link: true
 # NCurses Disk Usage
 brew "ncdu"
 # Ambitious Vim-fork focused on extensibility and agility
@@ -144,6 +143,7 @@ cask "adoptopenjdk11"
 cask "adoptopenjdk8"
 cask "alfred"
 cask "another-redis-desktop-manager"
+cask "boop"
 cask "discord"
 cask "font-hack-nerd-font"
 cask "font-sourcecodepro-nerd-font"
