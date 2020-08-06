@@ -54,6 +54,8 @@ brew "httpie"
 brew "imagemagick"
 # Manage your Java environment
 brew "jenv"
+# Little helper to run Rancher Lab's k3s in Docker
+brew "k3d"
 # Swiss Army Knife for macOS
 brew "m-cli"
 # MIT/GNU Scheme development tools and runtime library
