@@ -316,7 +316,7 @@ eval "$(rbenv init -)"
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
-alias spring="/usr/local/bin/spring"
+# alias spring="/usr/local/bin/spring"
 
 source $ZSH/oh-my-zsh.sh
 
