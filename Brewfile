@@ -14,8 +14,12 @@ tap "puma/puma"
 brew "ansible"
 # ANother Tool for Language Recognition
 brew "antlr"
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
 # Turn English phrases to C or C++ declarations
 brew "cdecl"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
 # Top-like interface for container metrics
 brew "ctop"
 # Good-lookin' diffs with diff-highlight and more
@@ -36,6 +40,8 @@ brew "git"
 brew "git-flow"
 # Alternative to top/htop
 brew "glances"
+# GNU implementation of the famous stream editor
+brew "gnu-sed"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # C/C++ and Java libraries for Unicode and globalization
@@ -80,6 +86,8 @@ brew "node"
 brew "node@10"
 # Libraries for security-enabled client and server applications
 brew "nss"
+# Outputs current CPU temperature for OSX
+brew "osx-cpu-temp"
 # Python dependency management tool
 brew "pipenv"
 # Draw UML diagrams
