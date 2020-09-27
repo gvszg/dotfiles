@@ -44,7 +44,7 @@ brew "icu4c"
 brew "grex"
 # GitHub Markdown previewer
 brew "grip"
-# The mind to rule processes of your development environment
+# Process manager for Procfile-based applications
 brew "hivemind"
 # Improved top (interactive process viewer)
 brew "htop"
