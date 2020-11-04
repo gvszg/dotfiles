@@ -7,6 +7,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "jesseduffield/lazydocker"
+tap "muesli/tap"
 tap "openresty/brew"
 tap "pivotal/tap"
 tap "puma/puma"
@@ -14,6 +15,8 @@ tap "puma/puma"
 brew "ansible"
 # ANother Tool for Language Recognition
 brew "antlr"
+# Like cat but displays content with syntax highlighting
+brew "ccat"
 # Turn English phrases to C or C++ declarations
 brew "cdecl"
 # Top-like interface for container metrics
@@ -44,6 +47,8 @@ brew "icu4c"
 brew "grex"
 # GitHub Markdown previewer
 brew "grip"
+# Reliable, high performance TCP/HTTP load balancer
+brew "haproxy"
 # Process manager for Procfile-based applications
 brew "hivemind"
 # Improved top (interactive process viewer)
@@ -140,6 +145,8 @@ brew "zsh-syntax-highlighting"
 brew "derailed/k9s/k9s"
 # A simple terminal UI for docker, written in Go
 brew "jesseduffield/lazydocker/lazydocker"
+# Disk Usage/Free Utility
+brew "muesli/tap/duf"
 # Scalable Web Platform by Extending NGINX with Lua
 brew "openresty/brew/openresty"
 cask "adoptopenjdk11"
@@ -150,6 +157,7 @@ cask "boop"
 cask "discord"
 cask "font-hack-nerd-font"
 cask "font-sourcecodepro-nerd-font"
+cask "graphql-playground"
 cask "ngrok"
 cask "notion"
 cask "obs"
