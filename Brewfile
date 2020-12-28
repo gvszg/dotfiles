@@ -109,7 +109,7 @@ brew "ta-lib"
 brew "telnet"
 # Code-search similar to ack
 brew "the_silver_searcher"
-# Programatically correct mistyped console commands
+# Programmatically correct mistyped console commands
 brew "thefuck"
 # Text interface for Git repositories
 brew "tig"
