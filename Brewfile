@@ -11,6 +11,7 @@ tap "muesli/tap"
 tap "openresty/brew"
 tap "pivotal/tap"
 tap "puma/puma"
+tap "pyroscope-io/brew"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
 # ANother Tool for Language Recognition
@@ -41,8 +42,6 @@ brew "git-flow"
 brew "glances"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
-# C/C++ and Java libraries for Unicode and globalization
-brew "icu4c"
 # Command-line tool for generating regular expressions
 brew "grex"
 # GitHub Markdown previewer
@@ -63,6 +62,8 @@ brew "jenv"
 brew "k3d"
 # Swiss Army Knife for macOS
 brew "m-cli"
+# Java-based project management
+brew "maven"
 # MIT/GNU Scheme development tools and runtime library
 brew "mit-scheme"
 # Simple tool to make locally trusted development certificates
@@ -149,16 +150,27 @@ brew "jesseduffield/lazydocker/lazydocker"
 brew "muesli/tap/duf"
 # Scalable Web Platform by Extending NGINX with Lua
 brew "openresty/brew/openresty"
+# Open source continuous profiling software
+brew "pyroscope-io/brew/pyroscope"
+# AdoptOpenJDK OpenJDK (Java) Development Kit
 cask "adoptopenjdk11"
+# AdoptOpenJDK OpenJDK (Java) Development Kit
 cask "adoptopenjdk8"
+# Application launcher and productivity software
 cask "alfred"
+# Redis desktop manager
 cask "another-redis-desktop-manager"
+# Scriptable scratchpad for developers
 cask "boop"
+# Voice and text chat software
 cask "discord"
 cask "font-hack-nerd-font"
 cask "font-sourcecodepro-nerd-font"
+# Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
-cask "notion"
+# Open-source software for live streaming and screen recording
 cask "obs"
+# MongoDB management tool
 cask "robo-3t"
+# App to switch hosts
 cask "switchhosts"
