@@ -10,10 +10,10 @@ tap "jesseduffield/lazydocker"
 tap "muesli/tap"
 tap "openresty/brew"
 tap "pivotal/tap"
-tap "puma/puma"
+# tap "puma/puma"
 tap "pyroscope-io/brew"
 # Automate deployment, configuration, and upgrading
-brew "ansible"
+# brew "ansible"
 # ANother Tool for Language Recognition
 brew "antlr"
 # Like cat but displays content with syntax highlighting
@@ -59,7 +59,7 @@ brew "imagemagick"
 # Manage your Java environment
 brew "jenv"
 # Little helper to run Rancher Lab's k3s in Docker
-brew "k3d"
+# brew "k3d"
 # Swiss Army Knife for macOS
 brew "m-cli"
 # Java-based project management
@@ -87,7 +87,7 @@ brew "node@10"
 # Libraries for security-enabled client and server applications
 brew "nss"
 # Python dependency management tool
-brew "pipenv"
+# brew "pipenv"
 # Draw UML diagrams
 brew "plantuml"
 # Object-relational database system
@@ -95,7 +95,7 @@ brew "postgresql"
 # Framework for managing multi-language pre-commit hooks
 brew "pre-commit"
 # Python version management
-brew "pyenv"
+# brew "pyenv"
 # Install various Ruby versions and implementations
 brew "ruby-build"
 # Ruby version manager
@@ -143,13 +143,13 @@ brew "zsh-completions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
 # Kubernetes CLI To Manage Your Clusters In Style!
-brew "derailed/k9s/k9s"
+# brew "derailed/k9s/k9s"
 # A simple terminal UI for docker, written in Go
 brew "jesseduffield/lazydocker/lazydocker"
 # Disk Usage/Free Utility
 brew "muesli/tap/duf"
 # Scalable Web Platform by Extending NGINX with Lua
-brew "openresty/brew/openresty"
+# brew "openresty/brew/openresty"
 # Open source continuous profiling software
 brew "pyroscope-io/brew/pyroscope"
 # AdoptOpenJDK OpenJDK (Java) Development Kit
@@ -171,6 +171,6 @@ cask "ngrok"
 # Open-source software for live streaming and screen recording
 cask "obs"
 # MongoDB management tool
-cask "robo-3t"
+# cask "robo-3t"
 # App to switch hosts
 cask "switchhosts"
