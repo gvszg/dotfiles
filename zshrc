@@ -277,8 +277,8 @@ fi
 alias el="exa -lbghHS"
 alias zshconfig="vim ~/.zshrc"
 # source ~/Projects/Setup/dotfiles/env.sh
-source ~/.custom.sh
-source ~/.fonts/*.sh
+## source ~/.custom.sh
+# source ~/.fonts/*.sh
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 eval $(thefuck --alias)

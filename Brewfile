@@ -1,19 +1,12 @@
 tap "adoptopenjdk/openjdk"
-tap "derailed/k9s"
-tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "jesseduffield/lazydocker"
 tap "muesli/tap"
-tap "openresty/brew"
 tap "pivotal/tap"
-tap "puma/puma"
 tap "pyroscope-io/brew"
-# Automate deployment, configuration, and upgrading
-brew "ansible"
 # ANother Tool for Language Recognition
 brew "antlr"
 # Like cat but displays content with syntax highlighting
@@ -40,14 +33,10 @@ brew "git"
 brew "git-flow"
 # Alternative to top/htop
 brew "glances"
-# Open source programming language to build simple/reliable/efficient software
-brew "go"
 # Command-line tool for generating regular expressions
 brew "grex"
 # GitHub Markdown previewer
 brew "grip"
-# Reliable, high performance TCP/HTTP load balancer
-brew "haproxy"
 # Process manager for Procfile-based applications
 brew "hivemind"
 # Improved top (interactive process viewer)
@@ -58,8 +47,6 @@ brew "httpie"
 brew "imagemagick"
 # Manage your Java environment
 brew "jenv"
-# Little helper to run Rancher Lab's k3s in Docker
-brew "k3d"
 # Swiss Army Knife for macOS
 brew "m-cli"
 # Java-based project management
@@ -70,8 +57,6 @@ brew "mit-scheme"
 brew "mkcert"
 # 'traceroute' and 'ping' in a single tool
 brew "mtr"
-# Open source relational database management system
-brew "mysql@5.7", link: true
 # NCurses Disk Usage
 brew "ncdu"
 # Ambitious Vim-fork focused on extensibility and agility
@@ -90,12 +75,8 @@ brew "nss"
 brew "pipenv"
 # Draw UML diagrams
 brew "plantuml"
-# Object-relational database system
-brew "postgresql"
 # Framework for managing multi-language pre-commit hooks
 brew "pre-commit"
-# Python version management
-brew "pyenv"
 # Install various Ruby versions and implementations
 brew "ruby-build"
 # Ruby version manager
@@ -142,10 +123,6 @@ brew "zsh"
 brew "zsh-completions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
-# Kubernetes CLI To Manage Your Clusters In Style!
-brew "derailed/k9s/k9s"
-# A simple terminal UI for docker, written in Go
-brew "jesseduffield/lazydocker/lazydocker"
 # Disk Usage/Free Utility
 brew "muesli/tap/duf"
 # Scalable Web Platform by Extending NGINX with Lua
@@ -163,14 +140,9 @@ cask "another-redis-desktop-manager"
 # Scriptable scratchpad for developers
 cask "boop"
 # Voice and text chat software
-cask "discord"
 cask "font-hack-nerd-font"
 cask "font-sourcecodepro-nerd-font"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
 # Open-source software for live streaming and screen recording
 cask "obs"
-# MongoDB management tool
-cask "robo-3t"
-# App to switch hosts
-cask "switchhosts"
