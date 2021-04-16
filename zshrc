@@ -299,8 +299,8 @@ export GOROOT=/usr/local/opt/go/libexec
 export GOPATH=$HOME/.go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
-export CATALINA_HOME="$HOME/Projects/Setup/Server/apache-tomcat9"
-export CATALINA="$HOME/Projects/Setup/Server/apache-tomcat9"
+export CATALINA_HOME="$HOME/Projects/Setup/Server/apache-tomcat8"
+export CATALINA="$HOME/Projects/Setup/Server/apache-tomcat8"
 # export CLASSPATH=$CATALINA/lib/servlet-api.jar:$CLASSPATH
 
 export PATH="/usr/local/opt/node@10/bin:$PATH"
@@ -311,7 +311,7 @@ export CPPFLAGS="-I/usr/local/opt/node@10/include"
 export PATH="$HOME/miniconda3/bin:$PATH"  # commented out by conda initialize
 # export PATH="$HOME/.cargo/bin:$PATH"
 
-export PATH=$PATH:~/.gradle/wrapper/dists/gradle-5.6.4-all/ankdp27end7byghfw1q2sw75f/gradle-5.6.4/bin
+# export PATH=$PATH:~/.gradle/wrapper/dists/gradle-5.6.4-all/ankdp27end7byghfw1q2sw75f/gradle-5.6.4/bin
 
 eval "$(rbenv init -)"
 export PATH="$HOME/.jenv/bin:$PATH"
