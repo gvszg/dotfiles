@@ -5,10 +5,13 @@ tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "muesli/tap"
+tap "openresty/brew"
 tap "pivotal/tap"
 tap "pyroscope-io/brew"
 # ANother Tool for Language Recognition
 brew "antlr"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
 # Like cat but displays content with syntax highlighting
 brew "ccat"
 # Turn English phrases to C or C++ declarations
@@ -85,6 +88,8 @@ brew "rbenv"
 brew "rbenv-gemset"
 # Reattach process (e.g., tmux) to background
 brew "reattach-to-user-namespace"
+# Static analysis and lint tool, for (ba)sh scripts
+brew "shellcheck"
 # Tools for market analysis
 brew "ta-lib"
 # User interface to the TELNET protocol
@@ -103,8 +108,6 @@ brew "tmux"
 brew "tree"
 # Command-line unarchiving tools supporting multiple formats
 brew "unar"
-# Extract, view, and test RAR archives
-brew "unrar"
 # Vi 'workalike' with many additional features
 brew "vim"
 # Internet file retriever
@@ -139,10 +142,15 @@ cask "alfred"
 cask "another-redis-desktop-manager"
 # Scriptable scratchpad for developers
 cask "boop"
-# Voice and text chat software
+# App to build and share containerized applications and microservices
+cask "docker"
+# Client for the Dropbox cloud storage service
+cask "dropbox"
 cask "font-hack-nerd-font"
-cask "font-sourcecodepro-nerd-font"
+cask "font-sauce-code-pro-nerd-font"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
 # Open-source software for live streaming and screen recording
 cask "obs"
+# Development environment
+cask "vagrant"
