@@ -136,6 +136,8 @@ brew "pyroscope-io/brew/pyroscope"
 cask "adoptopenjdk11"
 # AdoptOpenJDK OpenJDK (Java) Development Kit
 cask "adoptopenjdk8"
+# GPU-accelerated terminal emulator
+cask "alacritty"
 # Application launcher and productivity software
 cask "alfred"
 # Redis desktop manager
