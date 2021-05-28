@@ -10,10 +10,6 @@ tap "jesseduffield/lazydocker"
 tap "muesli/tap"
 tap "openresty/brew"
 tap "pivotal/tap"
-# tap "puma/puma"
-tap "pyroscope-io/brew"
-# Automate deployment, configuration, and upgrading
-# brew "ansible"
 # ANother Tool for Language Recognition
 brew "antlr"
 # Like cat but displays content with syntax highlighting
@@ -30,6 +26,8 @@ brew "dive"
 brew "dos2unix"
 # Modern replacement for 'ls'
 brew "exa"
+# I/O benchmark and stress test
+brew "fio"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # GNU compiler collection
@@ -58,8 +56,6 @@ brew "httpie"
 brew "imagemagick"
 # Manage your Java environment
 brew "jenv"
-# Little helper to run Rancher Lab's k3s in Docker
-# brew "k3d"
 # Swiss Army Knife for macOS
 brew "m-cli"
 # Java-based project management
@@ -86,16 +82,10 @@ brew "node"
 brew "node@10"
 # Libraries for security-enabled client and server applications
 brew "nss"
-# Python dependency management tool
-# brew "pipenv"
 # Draw UML diagrams
 brew "plantuml"
-# Object-relational database system
-brew "postgresql"
 # Framework for managing multi-language pre-commit hooks
 brew "pre-commit"
-# Python version management
-# brew "pyenv"
 # Install various Ruby versions and implementations
 brew "ruby-build"
 # Ruby version manager
@@ -118,6 +108,8 @@ brew "tig"
 brew "tldr"
 # Terminal multiplexer
 brew "tmux"
+# Manage complex tmux sessions easily
+brew "tmuxinator"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Command-line unarchiving tools supporting multiple formats
@@ -142,16 +134,10 @@ brew "zsh"
 brew "zsh-completions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
-# Kubernetes CLI To Manage Your Clusters In Style!
-# brew "derailed/k9s/k9s"
 # A simple terminal UI for docker, written in Go
 brew "jesseduffield/lazydocker/lazydocker"
 # Disk Usage/Free Utility
 brew "muesli/tap/duf"
-# Scalable Web Platform by Extending NGINX with Lua
-# brew "openresty/brew/openresty"
-# Open source continuous profiling software
-brew "pyroscope-io/brew/pyroscope"
 # AdoptOpenJDK OpenJDK (Java) Development Kit
 cask "adoptopenjdk11"
 # AdoptOpenJDK OpenJDK (Java) Development Kit
@@ -170,7 +156,9 @@ cask "font-sourcecodepro-nerd-font"
 cask "ngrok"
 # Open-source software for live streaming and screen recording
 cask "obs"
-# MongoDB management tool
-# cask "robo-3t"
 # App to switch hosts
 cask "switchhosts"
+# Configurable document editor that supports Markdown
+cask "typora"
+# Free messaging and calling application
+cask "wechat"
