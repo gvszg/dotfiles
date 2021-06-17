@@ -46,6 +46,8 @@ brew "grex"
 brew "grip"
 # Reliable, high performance TCP/HTTP load balancer
 brew "haproxy"
+# Kubernetes package manager
+brew "helm"
 # Process manager for Procfile-based applications
 brew "hivemind"
 # Improved top (interactive process viewer)
@@ -82,6 +84,8 @@ brew "node"
 brew "node@10"
 # Libraries for security-enabled client and server applications
 brew "nss"
+# Kubernetes introspection tool for developers
+brew "octant"
 # Draw UML diagrams
 brew "plantuml"
 # Framework for managing multi-language pre-commit hooks
@@ -94,6 +98,8 @@ brew "rbenv"
 brew "rbenv-gemset"
 # Reattach process (e.g., tmux) to background
 brew "reattach-to-user-namespace"
+# Easy and Repeatable Kubernetes Development
+brew "skaffold"
 # Tools for market analysis
 brew "ta-lib"
 # User interface to the TELNET protocol
@@ -142,6 +148,8 @@ brew "muesli/tap/duf"
 cask "adoptopenjdk11"
 # AdoptOpenJDK OpenJDK (Java) Development Kit
 cask "adoptopenjdk8"
+# GPU-accelerated terminal emulator
+cask "alacritty"
 # Application launcher and productivity software
 cask "alfred"
 # Redis desktop manager
