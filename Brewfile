@@ -72,6 +72,8 @@ brew "nnn"
 brew "node"
 # Platform built on V8 to build network applications
 brew "node@10"
+# Platform built on V8 to build network applications
+brew "node@14"
 # Libraries for security-enabled client and server applications
 brew "nss"
 # Python dependency management tool
@@ -154,5 +156,7 @@ cask "font-sauce-code-pro-nerd-font"
 cask "ngrok"
 # Open-source software for live streaming and screen recording
 cask "obs"
+# Text editor for code, markup and prose
+cask "sublime-text"
 # Development environment
 cask "vagrant"
