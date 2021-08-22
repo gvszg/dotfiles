@@ -26,6 +26,10 @@ brew "dive"
 brew "dos2unix"
 # Modern replacement for 'ls'
 brew "exa"
+# OCR (Optical Character Recognition) engine
+brew "tesseract"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
 # I/O benchmark and stress test
 brew "fio"
 # Command-line fuzzy finder written in Go
@@ -86,6 +90,8 @@ brew "node@10"
 brew "nss"
 # Kubernetes introspection tool for developers
 brew "octant"
+# OpenBSD freely-licensed SSH connectivity tools
+brew "openssh"
 # Draw UML diagrams
 brew "plantuml"
 # Framework for managing multi-language pre-commit hooks
@@ -100,6 +106,8 @@ brew "rbenv-gemset"
 brew "reattach-to-user-namespace"
 # Easy and Repeatable Kubernetes Development
 brew "skaffold"
+# SOund eXchange: universal sound sample translator
+brew "sox"
 # Tools for market analysis
 brew "ta-lib"
 # User interface to the TELNET protocol
@@ -164,6 +172,8 @@ cask "font-sourcecodepro-nerd-font"
 cask "ngrok"
 # Open-source software for live streaming and screen recording
 cask "obs"
+# Text editor for code, markup and prose
+cask "sublime-text"
 # App to switch hosts
 cask "switchhosts"
 # Configurable document editor that supports Markdown
