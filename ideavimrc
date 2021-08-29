@@ -1,0 +1,26 @@
+let mapleader=','
+
+inoremap jj <esc>
+
+map ff %
+
+map mf ]m
+
+map mb [m
+
+nnoremap <silent> <leader><space> :noh<cr>
+
+"*****************************************************************************
+"" Abbreviations
+"*****************************************************************************
+"" no one is really happy until you have this shortcuts
+cnoreabbrev W! w!
+cnoreabbrev Q! q!
+cnoreabbrev Qall! qall!
+cnoreabbrev Wq wq
+cnoreabbrev Wa wa
+cnoreabbrev wQ wq
+cnoreabbrev WQ wq
+cnoreabbrev W w
+cnoreabbrev Q q
+cnoreabbrev Qall qall
