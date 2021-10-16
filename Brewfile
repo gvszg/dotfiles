@@ -85,7 +85,7 @@ brew "nnn"
 # Platform built on V8 to build network applications
 brew "node"
 # Platform built on V8 to build network applications
-brew "node@10"
+brew "node@14", link: true
 # Libraries for security-enabled client and server applications
 brew "nss"
 # Kubernetes introspection tool for developers

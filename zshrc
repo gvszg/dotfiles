@@ -303,10 +303,10 @@ export CATALINA_HOME="$HOME/Projects/Setup/Server/apache-tomcat9"
 export CATALINA="$HOME/Projects/Setup/Server/apache-tomcat9"
 # export CLASSPATH=$CATALINA/lib/servlet-api.jar:$CLASSPATH
 
-export PATH="/usr/local/opt/node@10/bin:$PATH"
+export PATH="/usr/local/opt/node@14/bin:$PATH"
 export NODE_PATH='/usr/local/lib/node_modules'
-export LDFLAGS="-L/usr/local/opt/node@10/lib"
-export CPPFLAGS="-I/usr/local/opt/node@10/include"
+export LDFLAGS="-L/usr/local/opt/node@14/lib"
+export CPPFLAGS="-I/usr/local/opt/node@14/include"
 
 export PATH="$HOME/miniconda3/bin:$PATH"  # commented out by conda initialize
 # export PATH="$HOME/.cargo/bin:$PATH"
