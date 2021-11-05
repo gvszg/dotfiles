@@ -30,6 +30,8 @@ brew "exa"
 brew "fzf"
 # GNU compiler collection
 brew "gcc"
+# Java garbage collection visualization tool
+brew "gcviewer"
 # Distributed revision control system
 brew "git"
 # Extensions to follow Vincent Driessen's branching model
@@ -76,6 +78,8 @@ brew "node@10"
 brew "node@14"
 # Libraries for security-enabled client and server applications
 brew "nss"
+# 7-Zip (high compression file archiver) implementation
+brew "p7zip"
 # Python dependency management tool
 brew "pipenv"
 # Draw UML diagrams
@@ -158,5 +162,7 @@ cask "ngrok"
 cask "obs"
 # Text editor for code, markup and prose
 cask "sublime-text"
+# Configurable document editor that supports Markdown
+cask "typora"
 # Development environment
 cask "vagrant"
