@@ -94,6 +94,8 @@ brew "rbenv"
 brew "rbenv-gemset"
 # Reattach process (e.g., tmux) to background
 brew "reattach-to-user-namespace"
+# Powerful, clean, object-oriented scripting language
+brew "ruby"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
 # Tools for market analysis
@@ -110,6 +112,8 @@ brew "tig"
 brew "tldr"
 # Terminal multiplexer
 brew "tmux"
+# Manage complex tmux sessions easily
+brew "tmuxinator"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Command-line unarchiving tools supporting multiple formats
@@ -144,25 +148,27 @@ cask "adoptopenjdk11"
 cask "adoptopenjdk8"
 # GPU-accelerated terminal emulator
 cask "alacritty"
-# Application launcher and productivity software
-cask "alfred"
 # Redis desktop manager
 cask "another-redis-desktop-manager"
 # Scriptable scratchpad for developers
 cask "boop"
 # App to build and share containerized applications and microservices
 cask "docker"
-# Client for the Dropbox cloud storage service
-cask "dropbox"
 cask "font-hack-nerd-font"
 cask "font-sauce-code-pro-nerd-font"
+# IDE for Java development - community edition
+cask "intellij-idea-ce"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
 # Open-source software for live streaming and screen recording
 cask "obs"
+# Collaboration platform for API development
+cask "postman"
 # Text editor for code, markup and prose
 cask "sublime-text"
 # Configurable document editor that supports Markdown
 cask "typora"
 # Development environment
 cask "vagrant"
+# Open-source code editor
+cask "visual-studio-code"

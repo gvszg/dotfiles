@@ -284,10 +284,10 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 eval $(thefuck --alias)
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/aeroyu/Projects/Setup/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/aeroyu/Projects/Setup/google-cloud-sdk/path.zsh.inc'; fi
+# if [ -f '/Users/aeroyu/Projects/Setup/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/aeroyu/Projects/Setup/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/aeroyu/Projects/Setup/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/aeroyu/Projects/Setup/google-cloud-sdk/completion.zsh.inc'; fi
+# if [ -f '/Users/aeroyu/Projects/Setup/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/aeroyu/Projects/Setup/google-cloud-sdk/completion.zsh.inc'; fi
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
@@ -295,12 +295,12 @@ if [ -f '/Users/aeroyu/Projects/Setup/google-cloud-sdk/completion.zsh.inc' ]; th
 # export PATH=$JAVA_HOME/bin:$PATH
 # export CLASSPATH=$HOME/Projects/Setup/db/PostgreSQL/postgresql-42.2.5.jar:./
 
-export GOROOT=/usr/local/opt/go/libexec
-export GOPATH=$HOME/.go
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+# export GOROOT=/usr/local/opt/go/libexec
+# export GOPATH=$HOME/.go
+# export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
-export CATALINA_HOME="$HOME/Projects/Setup/Server/apache-tomcat8"
-export CATALINA="$HOME/Projects/Setup/Server/apache-tomcat8"
+# export CATALINA_HOME="$HOME/Projects/Setup/Server/apache-tomcat8"
+# export CATALINA="$HOME/Projects/Setup/Server/apache-tomcat8"
 # export CLASSPATH=$CATALINA/lib/servlet-api.jar:$CLASSPATH
 
 export PATH="/usr/local/opt/node@14/bin:$PATH"
@@ -308,7 +308,7 @@ export NODE_PATH='/usr/local/lib/node_modules'
 export LDFLAGS="-L/usr/local/opt/node@14/lib"
 export CPPFLAGS="-I/usr/local/opt/node@14/include"
 
-export PATH="$HOME/miniconda3/bin:$PATH"  # commented out by conda initialize
+# export PATH="$HOME/miniconda3/bin:$PATH"  # commented out by conda initialize
 # export PATH="$HOME/.cargo/bin:$PATH"
 
 # export PATH=$PATH:~/.gradle/wrapper/dists/gradle-5.6.4-all/ankdp27end7byghfw1q2sw75f/gradle-5.6.4/bin
@@ -316,8 +316,6 @@ export PATH="$HOME/miniconda3/bin:$PATH"  # commented out by conda initialize
 eval "$(rbenv init -)"
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
-
-# alias spring="/usr/local/bin/spring"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -341,3 +339,7 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 # [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
