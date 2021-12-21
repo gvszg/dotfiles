@@ -73,8 +73,6 @@ brew "nnn"
 # Platform built on V8 to build network applications
 brew "node"
 # Platform built on V8 to build network applications
-brew "node@10"
-# Platform built on V8 to build network applications
 brew "node@14"
 # Libraries for security-enabled client and server applications
 brew "nss"
