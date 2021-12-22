@@ -49,7 +49,7 @@ brew "grex"
 # GitHub Markdown previewer
 brew "grip"
 # Reliable, high performance TCP/HTTP load balancer
-brew "haproxy"
+brew "haproxy", restart_service: true
 # Kubernetes package manager
 brew "helm"
 # Process manager for Procfile-based applications
@@ -62,6 +62,10 @@ brew "httpie"
 brew "imagemagick"
 # Manage your Java environment
 brew "jenv"
+# Modern load testing tool, using Go and JavaScript
+brew "k6"
+# Lazier way to manage everything docker
+brew "lazydocker"
 # Swiss Army Knife for macOS
 brew "m-cli"
 # Java-based project management
@@ -73,7 +77,7 @@ brew "mkcert"
 # 'traceroute' and 'ping' in a single tool
 brew "mtr"
 # Open source relational database management system
-brew "mysql@5.7", link: true
+brew "mysql@5.7", restart_service: true, link: true
 # NCurses Disk Usage
 brew "ncdu"
 # Ambitious Vim-fork focused on extensibility and agility
@@ -85,7 +89,7 @@ brew "nnn"
 # Platform built on V8 to build network applications
 brew "node"
 # Platform built on V8 to build network applications
-brew "node@14", link: true
+brew "node@14"
 # Libraries for security-enabled client and server applications
 brew "nss"
 # Kubernetes introspection tool for developers
@@ -148,14 +152,10 @@ brew "zsh"
 brew "zsh-completions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
-# A simple terminal UI for docker, written in Go
-brew "jesseduffield/lazydocker/lazydocker"
 # Disk Usage/Free Utility
 brew "muesli/tap/duf"
 # AdoptOpenJDK OpenJDK (Java) Development Kit
 cask "adoptopenjdk11"
-# AdoptOpenJDK OpenJDK (Java) Development Kit
-cask "adoptopenjdk8"
 # GPU-accelerated terminal emulator
 cask "alacritty"
 # Application launcher and productivity software
@@ -178,5 +178,7 @@ cask "sublime-text"
 cask "switchhosts"
 # Configurable document editor that supports Markdown
 cask "typora"
+# Development environment
+cask "vagrant"
 # Free messaging and calling application
 cask "wechat"
