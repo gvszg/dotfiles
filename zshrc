@@ -276,6 +276,8 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias el="exa -lbghHS"
 alias zshconfig="vim ~/.zshrc"
+
+alias gitdifftreeprint="git diff-tree -r --no-commit-id --name-status --diff-filter=ACDMRT $1 $2"
 # source ~/Projects/Setup/dotfiles/env.sh
 ## source ~/.custom.sh
 # source ~/.fonts/*.sh
