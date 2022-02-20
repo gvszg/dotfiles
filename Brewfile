@@ -49,7 +49,7 @@ brew "grex"
 # GitHub Markdown previewer
 brew "grip"
 # Reliable, high performance TCP/HTTP load balancer
-brew "haproxy", restart_service: true
+brew "haproxy"
 # Kubernetes package manager
 brew "helm"
 # Process manager for Procfile-based applications
@@ -77,7 +77,7 @@ brew "mkcert"
 # 'traceroute' and 'ping' in a single tool
 brew "mtr"
 # Open source relational database management system
-brew "mysql@5.7", restart_service: true, link: true
+brew "mysql@5.7", link: true
 # NCurses Disk Usage
 brew "ncdu"
 # Ambitious Vim-fork focused on extensibility and agility
@@ -87,11 +87,13 @@ brew "nmap"
 # Tiny, lightning fast, feature-packed file manager
 brew "nnn"
 # Platform built on V8 to build network applications
-brew "node"
+brew "node", link: false
 # Platform built on V8 to build network applications
 brew "node@14"
 # Libraries for security-enabled client and server applications
 brew "nss"
+# Manage multiple Node.js versions
+brew "nvm"
 # Kubernetes introspection tool for developers
 brew "octant"
 # OpenBSD freely-licensed SSH connectivity tools
@@ -152,8 +154,6 @@ brew "zsh"
 brew "zsh-completions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
-# Disk Usage/Free Utility
-brew "muesli/tap/duf"
 # AdoptOpenJDK OpenJDK (Java) Development Kit
 cask "adoptopenjdk11"
 # GPU-accelerated terminal emulator
