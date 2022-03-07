@@ -38,6 +38,8 @@ brew "git"
 brew "git-flow"
 # Alternative to top/htop
 brew "glances"
+# Open-source build automation tool based on the Groovy and Kotlin DSL
+brew "gradle"
 # Command-line tool for generating regular expressions
 brew "grex"
 # GitHub Markdown previewer
@@ -76,6 +78,8 @@ brew "node"
 brew "node@14"
 # Libraries for security-enabled client and server applications
 brew "nss"
+# Manage multiple Node.js versions
+brew "nvm"
 # 7-Zip (high compression file archiver) implementation
 brew "p7zip"
 # Python dependency management tool
@@ -142,8 +146,6 @@ brew "openresty/brew/openresty"
 brew "pyroscope-io/brew/pyroscope"
 # AdoptOpenJDK OpenJDK (Java) Development Kit
 cask "adoptopenjdk11"
-# AdoptOpenJDK OpenJDK (Java) Development Kit
-cask "adoptopenjdk8"
 # GPU-accelerated terminal emulator
 cask "alacritty"
 # Redis desktop manager
@@ -154,6 +156,8 @@ cask "boop"
 cask "docker"
 cask "font-hack-nerd-font"
 cask "font-sauce-code-pro-nerd-font"
+# GIT client
+cask "fork"
 # IDE for Java development - community edition
 cask "intellij-idea-ce"
 # Reverse proxy, secure introspectable tunnels to localhost
@@ -168,5 +172,7 @@ cask "sublime-text"
 cask "typora"
 # Development environment
 cask "vagrant"
+# Virtualizer for x86 hardware
+cask "virtualbox"
 # Open-source code editor
 cask "visual-studio-code"
