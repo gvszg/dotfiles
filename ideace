@@ -1,3 +1,4 @@
 #!/bin/sh
 
+##### ln -s ~/Office/Setup/dotfiles/ideace ideace
 open -na "IntelliJ IDEA CE.app" --args "$@"
