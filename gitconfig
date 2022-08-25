@@ -59,3 +59,5 @@
 	whitespace = red reverse
 [credential]
 	helper = cache
+[url "ssh://git@bitbucket.org/"]
+	insteadOf = https://bitbucket.org
