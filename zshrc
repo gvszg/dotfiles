@@ -300,6 +300,9 @@ eval $(thefuck --alias)
 # export GOROOT=/usr/local/opt/go/libexec
 # export GOPATH=$HOME/.go
 # export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+export GOROOT=$HOME/Office/Setup/SDK/Go/go1.19
+export GOPATH=$HOME/.go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 # export CATALINA_HOME="$HOME/Projects/Setup/Server/apache-tomcat8"
 # export CATALINA="$HOME/Projects/Setup/Server/apache-tomcat8"
