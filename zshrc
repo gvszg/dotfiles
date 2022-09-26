@@ -295,9 +295,15 @@ if [ -f '/Users/aeroyu/Projects/Setup/google-cloud-sdk/completion.zsh.inc' ]; th
 # export PATH=$JAVA_HOME/bin:$PATH
 # export CLASSPATH=$HOME/Projects/Setup/db/PostgreSQL/postgresql-42.2.5.jar:./
 
-export GOROOT=/usr/local/opt/go/libexec
-export GOPATH=$HOME/.go
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+# export GOROOT=/usr/local/opt/go/libexec
+# export GOPATH=$HOME/.go
+# export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+# export PATH=$PATH:$GOPATH/bin
+
+export GOROOT=~/sdk/go1.18.6
+export GOPATH=~/.go
+export GOBIN=$GOPATH/bin
+export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
 
 export CATALINA_HOME="$HOME/Projects/Setup/Server/apache-tomcat9"
 export CATALINA="$HOME/Projects/Setup/Server/apache-tomcat9"
