@@ -300,7 +300,8 @@ eval $(thefuck --alias)
 # export GOROOT=/usr/local/opt/go/libexec
 # export GOPATH=$HOME/.go
 # export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
-export GOROOT=$HOME/Office/Setup/SDK/Go/go1.19
+# export GOROOT=$HOME/Office/Setup/SDK/Go/go1.19
+export GOROOT=$HOME/Office/Setup/SDK/Go/go1.18.6
 export GOPATH=$HOME/.go
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin:$GOPATH/bin
