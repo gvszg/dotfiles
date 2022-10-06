@@ -319,7 +319,7 @@ export PATH="$HOME/miniconda3/bin:$PATH"  # commented out by conda initialize
 
 # export PATH=$PATH:~/.gradle/wrapper/dists/gradle-5.6.4-all/ankdp27end7byghfw1q2sw75f/gradle-5.6.4/bin
 
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
