@@ -8,14 +8,21 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "jesseduffield/lazydocker"
 tap "muesli/tap"
+tap "mvndaemon/mvnd"
+tap "nats-io/nats-tools"
 tap "openresty/brew"
 tap "pivotal/tap"
+tap "spring-io/tap"
+# Software library to render fonts
+brew "freetype"
 # ANother Tool for Language Recognition
 brew "antlr"
 # Like cat but displays content with syntax highlighting
 brew "ccat"
 # Turn English phrases to C or C++ declarations
 brew "cdecl"
+# Cross-platform make
+brew "cmake"
 # Top-like interface for container metrics
 brew "ctop"
 # Good-lookin' diffs with diff-highlight and more
@@ -42,26 +49,26 @@ brew "git"
 brew "git-flow"
 # Alternative to top/htop
 brew "glances"
-# Open source programming language to build simple/reliable/efficient software
-brew "go"
 # Command-line tool for generating regular expressions
 brew "grex"
 # GitHub Markdown previewer
 brew "grip"
-# Reliable, high performance TCP/HTTP load balancer
-brew "haproxy"
-# Kubernetes package manager
-brew "helm"
 # Process manager for Procfile-based applications
 brew "hivemind"
+# Text-based UI library
+brew "ncurses"
 # Improved top (interactive process viewer)
 brew "htop"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Curl statistics made simple
+brew "httpstat"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
 # Manage your Java environment
 brew "jenv"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
 # Modern load testing tool, using Go and JavaScript
 brew "k6"
 # Lazier way to manage everything docker
@@ -70,14 +77,14 @@ brew "lazydocker"
 brew "m-cli"
 # Java-based project management
 brew "maven"
+# Scalable distributed version control system
+brew "mercurial"
 # MIT/GNU Scheme development tools and runtime library
 brew "mit-scheme"
 # Simple tool to make locally trusted development certificates
 brew "mkcert"
 # 'traceroute' and 'ping' in a single tool
 brew "mtr"
-# Open source relational database management system
-brew "mysql@5.7", link: true
 # NCurses Disk Usage
 brew "ncdu"
 # Ambitious Vim-fork focused on extensibility and agility
@@ -86,20 +93,12 @@ brew "neovim"
 brew "nmap"
 # Tiny, lightning fast, feature-packed file manager
 brew "nnn"
-# Platform built on V8 to build network applications
-brew "node", link: false
-# Platform built on V8 to build network applications
-brew "node@14"
 # Libraries for security-enabled client and server applications
 brew "nss"
 # Manage multiple Node.js versions
 brew "nvm"
-# Kubernetes introspection tool for developers
-brew "octant"
 # OpenBSD freely-licensed SSH connectivity tools
 brew "openssh"
-# Draw UML diagrams
-brew "plantuml"
 # Framework for managing multi-language pre-commit hooks
 brew "pre-commit"
 # Install various Ruby versions and implementations
@@ -110,8 +109,6 @@ brew "rbenv"
 brew "rbenv-gemset"
 # Reattach process (e.g., tmux) to background
 brew "reattach-to-user-namespace"
-# Easy and Repeatable Kubernetes Development
-brew "skaffold"
 # SOund eXchange: universal sound sample translator
 brew "sox"
 # Tools for market analysis
@@ -138,6 +135,8 @@ brew "unar"
 brew "unrar"
 # Vi 'workalike' with many additional features
 brew "vim"
+# Command-line client for WebSockets
+brew "websocat"
 # Internet file retriever
 brew "wget"
 # HTTP benchmarking tool
@@ -156,6 +155,8 @@ brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 # AdoptOpenJDK OpenJDK (Java) Development Kit
 cask "adoptopenjdk11"
+# AdoptOpenJDK OpenJDK (Java) Development Kit
+cask "adoptopenjdk8"
 # GPU-accelerated terminal emulator
 cask "alacritty"
 # Application launcher and productivity software
@@ -166,6 +167,7 @@ cask "another-redis-desktop-manager"
 cask "boop"
 # Voice and text chat software
 cask "discord"
+# Developer targeted fonts with a high number of glyphs
 cask "font-hack-nerd-font"
 cask "font-sourcecodepro-nerd-font"
 # Reverse proxy, secure introspectable tunnels to localhost
