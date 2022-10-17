@@ -5,13 +5,13 @@ tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "muesli/tap"
-tap "openresty/brew"
 tap "pivotal/tap"
 tap "pyroscope-io/brew"
-# ANother Tool for Language Recognition
-brew "antlr"
+tap "romkatv/powerlevel10k"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.9"
+# ANother Tool for Language Recognition
+brew "antlr"
 # Like cat but displays content with syntax highlighting
 brew "ccat"
 # Turn English phrases to C or C++ declarations
@@ -26,6 +26,8 @@ brew "dive"
 brew "dos2unix"
 # Modern replacement for 'ls'
 brew "exa"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # GNU compiler collection
@@ -44,8 +46,6 @@ brew "gradle"
 brew "grex"
 # GitHub Markdown previewer
 brew "grip"
-# Process manager for Procfile-based applications
-brew "hivemind"
 # Improved top (interactive process viewer)
 brew "htop"
 # User-friendly cURL replacement (command-line HTTP client)
@@ -54,6 +54,8 @@ brew "httpie"
 brew "imagemagick"
 # Manage your Java environment
 brew "jenv"
+# Lazier way to manage everything docker
+brew "lazydocker"
 # Swiss Army Knife for macOS
 brew "m-cli"
 # Java-based project management
@@ -84,8 +86,6 @@ brew "nvm"
 brew "p7zip"
 # Python dependency management tool
 brew "pipenv"
-# Draw UML diagrams
-brew "plantuml"
 # Framework for managing multi-language pre-commit hooks
 brew "pre-commit"
 # Install various Ruby versions and implementations
@@ -140,8 +140,6 @@ brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 # Disk Usage/Free Utility
 brew "muesli/tap/duf"
-# Scalable Web Platform by Extending NGINX with Lua
-brew "openresty/brew/openresty"
 # Open source continuous profiling software
 brew "pyroscope-io/brew/pyroscope"
 # AdoptOpenJDK OpenJDK (Java) Development Kit
@@ -154,18 +152,19 @@ cask "another-redis-desktop-manager"
 cask "boop"
 # App to build and share containerized applications and microservices
 cask "docker"
+# Developer targeted fonts with a high number of glyphs
 cask "font-hack-nerd-font"
 cask "font-sauce-code-pro-nerd-font"
 # GIT client
 cask "fork"
-# IDE for Java development - community edition
-cask "intellij-idea-ce"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
 # Open-source software for live streaming and screen recording
 cask "obs"
 # Collaboration platform for API development
 cask "postman"
+# Archive manager for data compression and backups
+cask "rar"
 # Text editor for code, markup and prose
 cask "sublime-text"
 # Configurable document editor that supports Markdown
