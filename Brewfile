@@ -146,8 +146,8 @@ brew "pyroscope-io/brew/pyroscope"
 cask "adoptopenjdk11"
 # GPU-accelerated terminal emulator
 cask "alacritty"
-# Redis desktop manager
-cask "another-redis-desktop-manager"
+# # Redis desktop manager
+# cask "another-redis-desktop-manager"
 # Scriptable scratchpad for developers
 cask "boop"
 # App to build and share containerized applications and microservices
