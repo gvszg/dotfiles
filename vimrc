@@ -241,7 +241,7 @@ let no_buffers_menu=1
 if !exists('g:not_finish_vimplug')
  "colorscheme molokai
  set background=dark
- colorscheme hybrid
+ " colorscheme hybrid
  "colorscheme base16-default-light
  "colorscheme base16-grayscale-dark
 endif
