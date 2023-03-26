@@ -4,6 +4,7 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "mdogan/zulu"
 tap "muesli/tap"
 tap "pivotal/tap"
 tap "pyroscope-io/brew"
@@ -22,6 +23,8 @@ brew "ctop"
 brew "diff-so-fancy"
 # Tool for exploring each layer in a docker image
 brew "dive"
+# Lightweight DNS forwarder and DHCP server
+brew "dnsmasq"
 # Convert text between DOS, UNIX, and Mac formats
 brew "dos2unix"
 # Modern replacement for 'ls'
@@ -146,14 +149,13 @@ brew "pyroscope-io/brew/pyroscope"
 cask "adoptopenjdk11"
 # GPU-accelerated terminal emulator
 cask "alacritty"
-# # Redis desktop manager
-# cask "another-redis-desktop-manager"
 # Scriptable scratchpad for developers
 cask "boop"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Developer targeted fonts with a high number of glyphs
 cask "font-hack-nerd-font"
+# Developer targeted fonts with a high number of glyphs
 cask "font-sauce-code-pro-nerd-font"
 # GIT client
 cask "fork"
