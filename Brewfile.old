@@ -1,5 +1,4 @@
 tap "adoptopenjdk/openjdk"
-tap "buildpack/tap"
 tap "derailed/k9s"
 tap "heroku/brew"
 tap "homebrew/bundle"
@@ -8,15 +7,22 @@ tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "jesseduffield/lazydocker"
+tap "muesli/tap"
+tap "mvndaemon/mvnd"
+tap "nats-io/nats-tools"
 tap "openresty/brew"
 tap "pivotal/tap"
-tap "puma/puma"
-# Automate deployment, configuration, and upgrading
-brew "ansible"
+tap "spring-io/tap"
+# Software library to render fonts
+brew "freetype"
 # ANother Tool for Language Recognition
 brew "antlr"
+# Like cat but displays content with syntax highlighting
+brew "ccat"
 # Turn English phrases to C or C++ declarations
 brew "cdecl"
+# Cross-platform make
+brew "cmake"
 # Top-like interface for container metrics
 brew "ctop"
 # Good-lookin' diffs with diff-highlight and more
@@ -27,6 +33,12 @@ brew "dive"
 brew "dos2unix"
 # Modern replacement for 'ls'
 brew "exa"
+# OCR (Optical Character Recognition) engine
+brew "tesseract"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
+# I/O benchmark and stress test
+brew "fio"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # GNU compiler collection
@@ -37,34 +49,42 @@ brew "git"
 brew "git-flow"
 # Alternative to top/htop
 brew "glances"
-# Open source programming language to build simple/reliable/efficient software
-brew "go"
-# Interpreted, interactive, object-oriented programming language
-brew "python"
-# C/C++ and Java libraries for Unicode and globalization
-brew "icu4c"
 # Command-line tool for generating regular expressions
 brew "grex"
 # GitHub Markdown previewer
 brew "grip"
-# The mind to rule processes of your development environment
+# Process manager for Procfile-based applications
 brew "hivemind"
+# Text-based UI library
+brew "ncurses"
 # Improved top (interactive process viewer)
 brew "htop"
+# User-friendly cURL replacement (command-line HTTP client)
+brew "httpie"
+# Curl statistics made simple
+brew "httpstat"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
 # Manage your Java environment
 brew "jenv"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# Modern load testing tool, using Go and JavaScript
+brew "k6"
+# Lazier way to manage everything docker
+brew "lazydocker"
 # Swiss Army Knife for macOS
 brew "m-cli"
+# Java-based project management
+brew "maven"
+# Scalable distributed version control system
+brew "mercurial"
 # MIT/GNU Scheme development tools and runtime library
 brew "mit-scheme"
 # Simple tool to make locally trusted development certificates
 brew "mkcert"
 # 'traceroute' and 'ping' in a single tool
 brew "mtr"
-# Open source relational database management system
-brew "mysql@5.7"
 # NCurses Disk Usage
 brew "ncdu"
 # Ambitious Vim-fork focused on extensibility and agility
@@ -73,20 +93,14 @@ brew "neovim"
 brew "nmap"
 # Tiny, lightning fast, feature-packed file manager
 brew "nnn"
-# Platform built on V8 to build network applications
-brew "node"
-# Platform built on V8 to build network applications
-brew "node@10"
 # Libraries for security-enabled client and server applications
 brew "nss"
-# Python dependency management tool
-brew "pipenv"
-# Draw UML diagrams
-brew "plantuml"
+# Manage multiple Node.js versions
+brew "nvm"
+# OpenBSD freely-licensed SSH connectivity tools
+brew "openssh"
 # Framework for managing multi-language pre-commit hooks
 brew "pre-commit"
-# Python version management
-brew "pyenv"
 # Install various Ruby versions and implementations
 brew "ruby-build"
 # Ruby version manager
@@ -95,13 +109,15 @@ brew "rbenv"
 brew "rbenv-gemset"
 # Reattach process (e.g., tmux) to background
 brew "reattach-to-user-namespace"
+# SOund eXchange: universal sound sample translator
+brew "sox"
 # Tools for market analysis
 brew "ta-lib"
 # User interface to the TELNET protocol
 brew "telnet"
 # Code-search similar to ack
 brew "the_silver_searcher"
-# Programatically correct mistyped console commands
+# Programmatically correct mistyped console commands
 brew "thefuck"
 # Text interface for Git repositories
 brew "tig"
@@ -109,6 +125,8 @@ brew "tig"
 brew "tldr"
 # Terminal multiplexer
 brew "tmux"
+# Manage complex tmux sessions easily
+brew "tmuxinator"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Command-line unarchiving tools supporting multiple formats
@@ -117,6 +135,8 @@ brew "unar"
 brew "unrar"
 # Vi 'workalike' with many additional features
 brew "vim"
+# Command-line client for WebSockets
+brew "websocat"
 # Internet file retriever
 brew "wget"
 # HTTP benchmarking tool
@@ -133,23 +153,34 @@ brew "zsh"
 brew "zsh-completions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
-# Kubernetes CLI To Manage Your Clusters In Style!
-brew "derailed/k9s/k9s"
-# A simple terminal UI for docker, written in Go
-brew "jesseduffield/lazydocker/lazydocker"
-# Scalable Web Platform by Extending NGINX with Lua
-brew "openresty/brew/openresty"
-brew "pivotal/tap/springboot"
+# AdoptOpenJDK OpenJDK (Java) Development Kit
 cask "adoptopenjdk11"
+# AdoptOpenJDK OpenJDK (Java) Development Kit
 cask "adoptopenjdk8"
+# GPU-accelerated terminal emulator
+cask "alacritty"
+# Application launcher and productivity software
 cask "alfred"
+# Redis desktop manager
 cask "another-redis-desktop-manager"
+# Scriptable scratchpad for developers
+cask "boop"
+# Voice and text chat software
 cask "discord"
+# Developer targeted fonts with a high number of glyphs
 cask "font-hack-nerd-font"
 cask "font-sourcecodepro-nerd-font"
-cask "miro-formerly-realtimeboard"
+# Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
-cask "notion"
+# Open-source software for live streaming and screen recording
 cask "obs"
-cask "spotify"
+# Text editor for code, markup and prose
+cask "sublime-text"
+# App to switch hosts
 cask "switchhosts"
+# Configurable document editor that supports Markdown
+cask "typora"
+# Development environment
+cask "vagrant"
+# Free messaging and calling application
+cask "wechat"
