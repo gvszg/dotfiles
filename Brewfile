@@ -164,8 +164,6 @@ cask "adoptopenjdk8"
 cask "alacritty"
 # Application launcher and productivity software
 cask "alfred"
-# Redis desktop manager
-cask "another-redis-desktop-manager"
 # Scriptable scratchpad for developers
 cask "boop"
 # Voice and text chat software
