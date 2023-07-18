@@ -5,6 +5,9 @@
 .pryrc
 .ruby-version
 .passenger/
+*.env
+*.creds
+.java-version
 
 /tmp
 /log
