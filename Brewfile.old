@@ -1,6 +1,4 @@
 tap "adoptopenjdk/openjdk"
-tap "derailed/k9s"
-tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
@@ -10,7 +8,6 @@ tap "jesseduffield/lazydocker"
 tap "muesli/tap"
 tap "mvndaemon/mvnd"
 tap "nats-io/nats-tools"
-tap "openresty/brew"
 tap "pivotal/tap"
 tap "spring-io/tap"
 # Software library to render fonts
@@ -29,10 +26,14 @@ brew "ctop"
 brew "diff-so-fancy"
 # Tool for exploring each layer in a docker image
 brew "dive"
+# Lightweight DNS forwarder and DHCP server
+brew "dnsmasq", restart_service: true
 # Convert text between DOS, UNIX, and Mac formats
 brew "dos2unix"
 # Modern replacement for 'ls'
 brew "exa"
+# Low-level access to audio, keyboard, mouse, joystick, and graphics
+brew "sdl2"
 # OCR (Optical Character Recognition) engine
 brew "tesseract"
 # Play, record, convert, and stream audio and video
@@ -76,7 +77,7 @@ brew "lazydocker"
 # Swiss Army Knife for macOS
 brew "m-cli"
 # Java-based project management
-brew "maven"
+brew "maven", link: false
 # Scalable distributed version control system
 brew "mercurial"
 # MIT/GNU Scheme development tools and runtime library
@@ -109,6 +110,8 @@ brew "rbenv"
 brew "rbenv-gemset"
 # Reattach process (e.g., tmux) to background
 brew "reattach-to-user-namespace"
+# Powerful, clean, object-oriented scripting language
+brew "ruby", link: true
 # SOund eXchange: universal sound sample translator
 brew "sox"
 # Tools for market analysis
@@ -161,8 +164,6 @@ cask "adoptopenjdk8"
 cask "alacritty"
 # Application launcher and productivity software
 cask "alfred"
-# Redis desktop manager
-cask "another-redis-desktop-manager"
 # Scriptable scratchpad for developers
 cask "boop"
 # Voice and text chat software
@@ -174,6 +175,8 @@ cask "font-sourcecodepro-nerd-font"
 cask "ngrok"
 # Open-source software for live streaming and screen recording
 cask "obs"
+# Control your tools with a few keystrokes
+cask "raycast"
 # Text editor for code, markup and prose
 cask "sublime-text"
 # App to switch hosts
