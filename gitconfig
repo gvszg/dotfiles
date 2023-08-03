@@ -61,3 +61,5 @@
 	helper = cache
 [url "ssh://git@bitbucket.org/"]
 	insteadOf = https://bitbucket.org
+[url "git@bitbucket.org:"]
+	insteadOf = https://bitbucket.org/
