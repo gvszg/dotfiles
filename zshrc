@@ -300,7 +300,8 @@ if [ -f '/Users/aeroyu/Projects/Setup/google-cloud-sdk/completion.zsh.inc' ]; th
 # export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 # export PATH=$PATH:$GOPATH/bin
 
-export GOROOT=~/sdk/go1.18.6
+# export GOROOT=~/sdk/go1.18.6
+export GOROOT=/usr/local/go
 export GOPATH=~/.go
 export GOBIN=$GOPATH/bin
 export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
