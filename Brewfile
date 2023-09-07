@@ -1,4 +1,3 @@
-tap "adoptopenjdk/openjdk"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
@@ -156,10 +155,6 @@ brew "zsh"
 brew "zsh-completions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
-# AdoptOpenJDK OpenJDK (Java) Development Kit
-cask "adoptopenjdk11"
-# AdoptOpenJDK OpenJDK (Java) Development Kit
-cask "adoptopenjdk8"
 # GPU-accelerated terminal emulator
 cask "alacritty"
 # Application launcher and productivity software
