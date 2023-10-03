@@ -20,7 +20,7 @@ eval "$(starship init zsh)"
 
 export PATH=$PATH:$HOME/go/bin
 export PATH="$PATH:/Applications/Sublime Text.app/Contents/SharedSupport/bin"
-export EDITOR=vim
+export EDITOR=nvim
 export LSCOLORS=GxFxCxDxBxegedabagaced
 export JAVA_HOME="$(/usr/libexec/java_home -v 17)"
 
