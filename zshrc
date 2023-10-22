@@ -305,6 +305,7 @@ export GOROOT=/usr/local/go
 export GOPATH=~/.go
 export GOBIN=$GOPATH/bin
 export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
+export PATH=/usr/local/mysql/bin:$PATH
 
 export CATALINA_HOME="$HOME/Projects/Setup/Server/apache-tomcat9"
 export CATALINA="$HOME/Projects/Setup/Server/apache-tomcat9"
