@@ -18,6 +18,7 @@ compinit
 
 eval "$(starship init zsh)"
 
+export PATH=$PATH:/usr/local/mysql/bin
 export PATH=$PATH:$HOME/go/bin
 export PATH="$PATH:/Applications/Sublime Text.app/Contents/SharedSupport/bin"
 export EDITOR=nvim
