@@ -672,7 +672,7 @@ let g:ale_lint_on_save = 0
 " Default highlight is better than polyglot
 let g:polyglot_disabled = ['python']
 let python_highlight_all = 1
-let g:python3_host_prog = '/opt/homebrew/bin/python3'
+"let g:python3_host_prog = '/opt/homebrew/bin/python3'
 
 " ruby
 let g:rubycomplete_buffer_loading = 1
