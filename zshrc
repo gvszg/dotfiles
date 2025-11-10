@@ -23,7 +23,7 @@ export PATH=$PATH:$HOME/go/bin
 export PATH="$PATH:/Applications/Sublime Text.app/Contents/SharedSupport/bin"
 export EDITOR=nvim
 export LSCOLORS=GxFxCxDxBxegedabagaced
-export JAVA_HOME="$(/usr/libexec/java_home -v 17.0.7)"
+export JAVA_HOME="$(/usr/libexec/java_home -v 21.0.5)"
 
 alias vim='nvim'
 alias ll='ls -lh'
