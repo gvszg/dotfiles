@@ -55,3 +55,5 @@ if [ -f '/Users/shibacat/Shiba-Office/Setup/google-cloud-sdk/path.zsh.inc' ]; th
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/shibacat/Shiba-Office/Setup/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/shibacat/Shiba-Office/Setup/google-cloud-sdk/completion.zsh.inc'; fi
+
+alias glow='glow -s ~/.config/glow/custom-dark.json'
