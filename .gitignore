@@ -51,3 +51,5 @@ node_modules/.yarn-integrity
 yarn-debug.log*
 .yarn-integrity
 .java-version
+
+init.vim.bak
