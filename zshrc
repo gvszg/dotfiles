@@ -24,7 +24,7 @@ export GOTOOLCHAIN=auto
 export PATH="$PATH:/Applications/Sublime Text.app/Contents/SharedSupport/bin"
 export EDITOR=nvim
 export LSCOLORS=GxFxCxDxBxegedabagaced
-export JAVA_HOME="$(/usr/libexec/java_home -v 21.0.5)"
+export JAVA_HOME="$(/usr/libexec/java_home -v 25.0.4.1)"
 
 alias vim='nvim'
 alias ll='ls -lh'
